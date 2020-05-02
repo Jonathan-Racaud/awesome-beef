@@ -5,6 +5,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python)
 
 - [Official resources](#official-resources)
 - [Game Development](#game-development)
+
 ---
 
 ## Official resources
@@ -22,3 +23,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python)
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
+
+---
+
+# Contributing
+
+Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/Jonathan-Racaud/awesome-beef/blob/master/CONTRIBUTING.md) first.
+
+I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/Jonathan-Racaud/awesome-beef/pulls) by adding :+1: to them. Pull requests will be merged when their votes reach **20**.
