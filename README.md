@@ -14,7 +14,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python)
 - [Official website](https://beeflang.org) - Official website of the Beef programming language.
 - [Official documentation](https://beeflang.org/docs) - Official documentation explaining how the language wworks and its philosophy.
 - [Corelib documentation](https://www.beeflang.org/docs/doxygen/corlib/html/index.html) - Auto generated documentation for the core library.
-- [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE
+- [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE.
 
 ## Game Development
 *Awesome game development libraries and frameworks.*
