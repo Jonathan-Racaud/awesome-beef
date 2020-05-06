@@ -26,10 +26,16 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
 
-## Other
-*Other awesome libraries for other stuff.*
+## Logging
+*Logging libraries and frameworks.*
 
-- [SteakLogger](https://github.com/RogueMacro/SteakLogger) - A awesome logging library for Beef.
+- [SteakLogger](https://github.com/RogueMacro/SteakLogger) - An awesome logging library for Beef.
+
+## Scripting engine
+*Awesome scripting libraries.*
+
+- [Lua535-beef](https://github.com/thibmo/lua535-beef) - BeefLang wrapper library for Lua 5.3.5.
+
 ---
 
 # Contributing
