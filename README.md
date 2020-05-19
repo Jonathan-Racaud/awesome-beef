@@ -22,6 +22,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Awesome game development libraries and frameworks.*
 
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
+- [Imgui-beef](https://github.com/qzole/imgui-beef) - Beef wrapper library for ImGui.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
