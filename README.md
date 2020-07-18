@@ -38,6 +38,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [Lua535-beef](https://github.com/thibmo/lua535-beef) - BeefLang wrapper library for Lua 5.3.5.
 
+## Other
+*Other awesome libraries*
+
+- [CowieCLI](https://github.com/RogueMacro/CowieCLI) - It has never been so awesome to create a CLI!
+
 ---
 
 # Contributing
