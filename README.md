@@ -18,6 +18,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Corelib documentation](https://www.beeflang.org/docs/doxygen/corlib/html/index.html) - Auto generated documentation for the core library.
 - [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE.
 
+## Command Line Interface Development
+*Libraries for building CLI applications*
+
+- [CowieCLI](https://github.com/RogueMacro/CowieCLI) - Awesome command line arguments parsing library.
+
 ## Game Development
 *Awesome game development libraries and frameworks.*
 
@@ -37,11 +42,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Awesome scripting libraries.*
 
 - [Lua535-beef](https://github.com/thibmo/lua535-beef) - BeefLang wrapper library for Lua 5.3.5.
-
-## Other
-*Other awesome libraries*
-
-- [CowieCLI](https://github.com/RogueMacro/CowieCLI) - It has never been so awesome to create a CLI!
 
 ---
 
