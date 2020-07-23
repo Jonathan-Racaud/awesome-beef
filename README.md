@@ -43,6 +43,12 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [Lua535-beef](https://github.com/thibmo/lua535-beef) - BeefLang wrapper library for Lua 5.3.5.
 
+## Serialization
+*Libraries for serializing and parsing text*
+
+- [Beef-toml](https://github.com/killamaaki/beef-toml) - Toml parser/serializer library.
+- [JSON_Beef](https://github.com/Jonathan-Racaud/JSON_Beef) - Json parser library with reflection based deserialization.
+
 ---
 
 # Contributing
