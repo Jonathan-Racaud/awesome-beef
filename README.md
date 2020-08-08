@@ -49,6 +49,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Beef-toml](https://github.com/killamaaki/beef-toml) - Toml parser/serializer library.
 - [JSON_Beef](https://github.com/Jonathan-Racaud/JSON_Beef) - Json parser library with reflection based deserialization.
 
+## Themes
+*IDE themes*
+
+- [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme
+
 ---
 
 # Contributing
