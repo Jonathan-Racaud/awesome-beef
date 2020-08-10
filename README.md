@@ -50,9 +50,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [JSON_Beef](https://github.com/Jonathan-Racaud/JSON_Beef) - Json parser library with reflection based deserialization.
 
 ## Themes
-*IDE themes*
+*IDE themes.*
 
-- [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme
+- [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
 
 ---
 
