@@ -38,6 +38,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [SteakLogger](https://github.com/RogueMacro/SteakLogger) - An awesome logging library for Beef.
 
+##  Networking
+*Awesome networking libraries and samples.*
+
+- [SampleListener](https://github.com/jairopaiva/SampleListener) - Sample usage of System.Net.Socket for listening connections.
+
 ## Scripting engine
 *Awesome scripting libraries.*
 
