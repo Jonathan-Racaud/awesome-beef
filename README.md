@@ -5,12 +5,19 @@ A curated list of awesome Beef framework, libraries and resources.
 
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
-- [Official resources](#official-resources)
-- [Game Development](#game-development)
+# Summary
+- [Official Resources](#Official_resources)
+- [Framework and Libraries](#framework-and-libraries)
+    - [Command Line Interface Development](#Command-Line-Interface-Development)
+    - [Game Development](#game-development)
+    - [Logging](#logging)
+    - [Scripting Engine](#Scripting-engine)
+    - [Serialization](#Serialization)
+    - [Themes](#Themes)
+- [Projects and Articles](#Projecs-and-Articles)
+- [Contributing](#Contributing)
 
----
-
-## Official resources
+# Official resources
 *The official documentation and resource for the Beef programming language.*
 
 - [Official website](https://beeflang.org) - Official website of the Beef programming language.
@@ -18,6 +25,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Corelib documentation](https://www.beeflang.org/docs/doxygen/corlib/html/index.html) - Auto generated documentation for the core library.
 - [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE.
 
+# Frameworks and Libraries
 ## Command Line Interface Development
 *Libraries for building CLI applications*
 
@@ -38,7 +46,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [SteakLogger](https://github.com/RogueMacro/SteakLogger) - An awesome logging library for Beef.
 
-## Scripting engine
+## Scripting Engines
 *Awesome scripting libraries.*
 
 - [Lua535-beef](https://github.com/thibmo/lua535-beef) - BeefLang wrapper library for Lua 5.3.5.
@@ -53,6 +61,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *IDE themes.*
 
 - [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
+
+# Projects and Articles
+*To show or explain you what beef is capable of.*
 
 ---
 
