@@ -6,16 +6,16 @@ A curated list of awesome Beef framework, libraries and resources.
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 # Summary
-- [Official Resources](#Official_resources)
-- [Framework and Libraries](#framework-and-libraries)
-    - [Command Line Interface Development](#Command-Line-Interface-Development)
+- [Official Resources](#official-resources)
+- [Frameworks and Libraries](#frameworks-and-libraries)
+    - [Command Line Interface Development](#command-line-interface-development)
     - [Game Development](#game-development)
     - [Logging](#logging)
-    - [Scripting Engine](#Scripting-engine)
-    - [Serialization](#Serialization)
-    - [Themes](#Themes)
-- [Projects and Articles](#Projecs-and-Articles)
-- [Contributing](#Contributing)
+    - [Scripting Engines](#scripting-engines)
+    - [Serialization](#serialization)
+    - [Themes](#themes)
+- [Projects and Articles](#projects-and-articles)
+- [Contributing](#contributing)
 
 # Official resources
 *The official documentation and resource for the Beef programming language.*
@@ -46,11 +46,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [SteakLogger](https://github.com/RogueMacro/SteakLogger) - An awesome logging library for Beef.
 
-##  Networking
-*Awesome networking libraries and samples.*
-
-- [SampleListener](https://github.com/jairopaiva/SampleListener) - Example of an echo server showing the use of System.Net.Socket to listen for clients connections.
-
 ## Scripting Engines
 *Awesome scripting libraries.*
 
@@ -69,6 +64,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 # Projects and Articles
 *To show or explain you what beef is capable of.*
+
+##  Networking
+
+- [SampleListener](https://github.com/jairopaiva/SampleListener) - Example of an echo server showing the use of System.Net.Socket to listen for clients connections.
+
 
 ---
 
