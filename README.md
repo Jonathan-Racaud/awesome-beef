@@ -52,7 +52,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [SampleListener](https://github.com/jairopaiva/SampleListener) - Example of an echo server showing the use of System.Net.Socket to listen for clients connections.
 
 ## Scripting Engines
-
 *Awesome scripting libraries.*
 
 - [Lua535-beef](https://github.com/thibmo/lua535-beef) - BeefLang wrapper library for Lua 5.3.5.
