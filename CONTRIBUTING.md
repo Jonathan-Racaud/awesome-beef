@@ -14,3 +14,4 @@ Your contributions are always welcome!
 - Search previous Pull Requests or Issues before making a new one, as yours may be a duplicate.
 - Check your spelling and grammar.
 - Remove any trailing whitespace.
+- The *Framework and Libraries* and the *Projects and Articles* sections should keep the same organization as to make searching for a specific type of project/article easier.
