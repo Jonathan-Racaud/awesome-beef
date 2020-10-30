@@ -14,6 +14,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Scripting Engines](#scripting-engines)
     - [Serialization](#serialization)
     - [Themes](#themes)
+    - [Crypto](#crypto)
 - [Projects and Articles](#projects-and-articles)
 - [Contributing](#contributing)
 
@@ -61,6 +62,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *IDE themes.*
 
 - [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
+
+## Crypto
+*Cryptography and hashing.*
+
+- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - [WiP] Collection of hashing algorithms
 
 # Projects and Articles
 *To show or explain you what beef is capable of.*
