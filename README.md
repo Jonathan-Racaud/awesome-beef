@@ -9,12 +9,12 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Official Resources](#official-resources)
 - [Frameworks and Libraries](#frameworks-and-libraries)
     - [Command Line Interface Development](#command-line-interface-development)
+    - [Cryptography and Hashing](#cryptography-and-hashing)
     - [Game Development](#game-development)
     - [Logging](#logging)
     - [Scripting Engines](#scripting-engines)
     - [Serialization](#serialization)
     - [Themes](#themes)
-    - [Crypto](#crypto)
 - [Projects and Articles](#projects-and-articles)
 - [Contributing](#contributing)
 
@@ -31,6 +31,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Libraries for building CLI applications*
 
 - [CowieCLI](https://github.com/RogueMacro/CowieCLI) - Awesome command line arguments parsing library.
+
+## Cryptography and Hashing
+*Cryptography and hashing algorithms.*
+
+- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
 
 ## Game Development
 *Awesome game development libraries and frameworks.*
@@ -62,11 +67,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *IDE themes.*
 
 - [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
-
-## Crypto
-*Cryptography and hashing.*
-
-- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - [WiP] Collection of hashing algorithms
 
 # Projects and Articles
 *To show or explain you what beef is capable of.*
