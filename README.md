@@ -9,6 +9,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Official Resources](#official-resources)
 - [Frameworks and Libraries](#frameworks-and-libraries)
     - [Command Line Interface Development](#command-line-interface-development)
+    - [Cryptography and Hashing](#cryptography-and-hashing)
     - [Game Development](#game-development)
     - [Logging](#logging)
     - [Scripting Engines](#scripting-engines)
@@ -30,6 +31,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Libraries for building CLI applications*
 
 - [CowieCLI](https://github.com/RogueMacro/CowieCLI) - Awesome command line arguments parsing library.
+
+## Cryptography and Hashing
+*Cryptography and hashing algorithms.*
+
+- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
 
 ## Game Development
 *Awesome game development libraries and frameworks.*
