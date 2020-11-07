@@ -44,6 +44,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Imgui-beef](https://github.com/qzole/imgui-beef) - Beef wrapper library for ImGui.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
+- [Strawberry](https://github.com/MattThorson/Strawberry) - A 2D game engine using SDL, focused on usability and simplicity.
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
 - [Vulkan-bf](https://github.com/ExoKomodo/Vulkan-bf) - Beef wrapper library for Vulkan.
 
