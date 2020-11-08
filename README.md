@@ -56,7 +56,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Scripting Engines
 *Awesome scripting libraries.*
 
-- [Lua535-beef](https://github.com/thibmo/lua535-beef) - BeefLang wrapper library for Lua 5.3.5.
+- [Lua-beef](https://github.com/thibmo/lua-beef) - BeefLang wrapper library for Lua.
 
 ## Serialization
 *Libraries for serializing and parsing text*
