@@ -68,6 +68,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *IDE themes.*
 
 - [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
+- [OneDarkPro](https://github.com/thibmo/BeefIDE-OneDarkPro) - Atom's iconic One Dark theme.
 
 # Projects and Articles
 *To show or explain you what beef is capable of.*
