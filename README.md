@@ -43,6 +43,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
+- [Pile](https://github.com/EinBurgbauer/Pile) - A simple extendable game framework.
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
 - [Strawberry](https://github.com/MattThorson/Strawberry) - A 2D game engine using SDL, focused on usability and simplicity.
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
