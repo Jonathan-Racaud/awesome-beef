@@ -12,6 +12,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Cryptography and Hashing](#cryptography-and-hashing)
     - [Game Development](#game-development)
     - [Logging](#logging)
+    - [Noise](#noise)
     - [Scripting Engines](#scripting-engines)
     - [Serialization](#serialization)
     - [Themes](#themes)
@@ -53,6 +54,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Logging libraries and frameworks.*
 
 - [SteakLogger](https://github.com/RogueMacro/SteakLogger) - An awesome logging library for Beef.
+
+## Noise
+*Noise algorithm libraries*
+
+- [FastNoise_Beef](https://github.com/EinBurgbauer/FastNoise_Beef) - Beef language port of the FastNoise Lite library.
 
 ## Scripting Engines
 *Awesome scripting libraries.*
