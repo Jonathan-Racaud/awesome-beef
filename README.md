@@ -8,8 +8,10 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 # Summary
 - [Official Resources](#official-resources)
 - [Frameworks and Libraries](#frameworks-and-libraries)
+    - [Algorithms](#algorithms)
+        - [Cryptography and Hashing](#cryptography-and-hashing)
+        - [Noise](#noise)
     - [Command Line Interface Development](#command-line-interface-development)
-    - [Cryptography and Hashing](#cryptography-and-hashing)
     - [Game Development](#game-development)
     - [Logging](#logging)
     - [Scripting Engines](#scripting-engines)
@@ -27,15 +29,19 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE.
 
 # Frameworks and Libraries
+## Algorithms
+*Libraries providing implementations of algorithms*
+
+### Cryptography and Hashing
+- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
+
+### Noise
+- [FastNoise_Beef](https://github.com/EinBurgbauer/FastNoise_Beef) - Beef port of the FastNoise Lite library.
+
 ## Command Line Interface Development
 *Libraries for building CLI applications*
 
 - [CowieCLI](https://github.com/RogueMacro/CowieCLI) - Awesome command line arguments parsing library.
-
-## Cryptography and Hashing
-*Cryptography and hashing algorithms.*
-
-- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
 
 ## Game Development
 *Awesome game development libraries and frameworks.*
