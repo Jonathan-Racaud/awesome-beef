@@ -69,7 +69,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Libraries for serializing and parsing text*
 
 - [Beef-toml](https://github.com/killamaaki/beef-toml) - Toml parser/serializer library.
-- [JSON_Beef](https://github.com/Jonathan-Racaud/JSON_Beef) - Json parser library with reflection based deserialization.
 - [Xml-Beef](https://github.com/thibmo/Xml-Beef) - Single-file XML parser in Beef with doctype support.
 
 ## Themes
