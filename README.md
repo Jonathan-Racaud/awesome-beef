@@ -46,6 +46,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Game Development
 *Awesome game development libraries and frameworks.*
 
+- [bgfx](https://github.com/bkaradzic/bgfx) - Beef bindings for BGFX. A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
