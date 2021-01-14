@@ -46,6 +46,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Game Development
 *Awesome game development libraries and frameworks.*
 
+- [bgfx](https://github.com/bkaradzic/bgfx) - Beef bindings for BGFX. A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
@@ -54,7 +55,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Strawberry](https://github.com/MattThorson/Strawberry) - A 2D game engine using SDL, focused on usability and simplicity.
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
 - [Vulkan-bf](https://github.com/ExoKomodo/Vulkan-bf) - Beef wrapper library for Vulkan.
-- [bgfx](https://github.com/bkaradzic/bgfx) - Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library written on C++. Repo contains Beef bindings.
 
 ## Logging
 *Logging libraries and frameworks.*
