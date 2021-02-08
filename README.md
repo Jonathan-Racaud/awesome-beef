@@ -59,7 +59,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Logging
 *Logging libraries and frameworks.*
 
-- [SteakLogger](https://github.com/RogueMacro/SteakLogger) - An awesome logging library for Beef.
+- [Steak.Logging](https://github.com/RogueMacro/Steak.Logging) - An awesome logging library for Beef.
 
 ## Scripting Engines
 *Awesome scripting libraries.*
