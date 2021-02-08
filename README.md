@@ -13,6 +13,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
         - [Noise](#noise)
     - [Command Line Interface Development](#command-line-interface-development)
     - [Game Development](#game-development)
+    - [IoC](#ioc)
     - [Logging](#logging)
     - [Scripting Engines](#scripting-engines)
     - [Serialization](#serialization)
@@ -55,6 +56,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Strawberry](https://github.com/MattThorson/Strawberry) - A 2D game engine using SDL, focused on usability and simplicity.
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
 - [Vulkan-bf](https://github.com/ExoKomodo/Vulkan-bf) - Beef wrapper library for Vulkan.
+
+## IoC
+*Inversion of Control libraries and frameworks*
+
+- [Steak.DependencyInjection](https://github.com/RogueMacro/Steak.DependencyInjection) - Simple dependency injection library
 
 ## Logging
 *Logging libraries and frameworks.*
