@@ -8,8 +8,10 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 # Summary
 - [Official Resources](#official-resources)
 - [Frameworks and Libraries](#frameworks-and-libraries)
+    - [Algorithms](#algorithms)
+        - [Cryptography and Hashing](#cryptography-and-hashing)
+        - [Noise](#noise)
     - [Command Line Interface Development](#command-line-interface-development)
-    - [Cryptography and Hashing](#cryptography-and-hashing)
     - [Game Development](#game-development)
     - [Logging](#logging)
     - [Scripting Engines](#scripting-engines)
@@ -27,22 +29,28 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE.
 
 # Frameworks and Libraries
+## Algorithms
+*Libraries providing implementations of algorithms*
+
+### Cryptography and Hashing
+- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
+
+### Noise
+- [FastNoise_Beef](https://github.com/EinBurgbauer/FastNoise_Beef) - Beef port of the FastNoise Lite library.
+
 ## Command Line Interface Development
 *Libraries for building CLI applications*
 
 - [CowieCLI](https://github.com/RogueMacro/CowieCLI) - Awesome command line arguments parsing library.
 
-## Cryptography and Hashing
-*Cryptography and hashing algorithms.*
-
-- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
-
 ## Game Development
 *Awesome game development libraries and frameworks.*
 
+- [bgfx](https://github.com/bkaradzic/bgfx) - Beef bindings for BGFX. A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
+- [Pile](https://github.com/EinBurgbauer/Pile) - A simple extendable game framework.
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
 - [Strawberry](https://github.com/MattThorson/Strawberry) - A 2D game engine using SDL, focused on usability and simplicity.
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
@@ -60,9 +68,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Serialization
 *Libraries for serializing and parsing text*
-
+- [Atma.Json](https://github.com/xposure/Atma.Json) - Json serialization framework.
 - [Beef-toml](https://github.com/killamaaki/beef-toml) - Toml parser/serializer library.
-- [JSON_Beef](https://github.com/Jonathan-Racaud/JSON_Beef) - Json parser library with reflection based deserialization.
+- [Xml-Beef](https://github.com/thibmo/Xml-Beef) - Single-file XML parser in Beef with doctype support.
 
 ## Themes
 *IDE themes.*
