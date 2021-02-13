@@ -19,6 +19,8 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Serialization](#serialization)
     - [Themes](#themes)
 - [Projects and Articles](#projects-and-articles)
+    - [Dynamic Linking](#dynamic-linking)
+    - [Networking](#networking)
 - [Contributing](#contributing)
 
 # Official resources
@@ -86,6 +88,10 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 # Projects and Articles
 *To show or explain you what beef is capable of.*
+
+## Dynamic Linking
+
+- [Beef DLL Creation & Research](https://m0n7y5.github.io/beef-dll-creation-and-research-2/) - Showcase of a fully functional Beef DLL
 
 ##  Networking
 
