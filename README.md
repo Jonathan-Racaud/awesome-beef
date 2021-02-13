@@ -19,6 +19,8 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Serialization](#serialization)
     - [Themes](#themes)
 - [Projects and Articles](#projects-and-articles)
+    - [Dynamic Linking](#dynamic-linking)
+    - [Networking](#networking)
 - [Contributing](#contributing)
 
 # Official resources
