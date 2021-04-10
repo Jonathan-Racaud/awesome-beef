@@ -78,7 +78,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## GUI
 *Libraries and frameworks for general GUI programming*
-- [ImGui]
+- ImGui
     - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
     - [ImGuibgfx-beef](https://github.com/RogueMacro/imgui-beef) - ImGui wrapper using SDL2 and BGFX.
 - [NativeFileDialog-beef](https://github.com/jazzbre/box2d-beef) - Portable library to invoke native file dialogs.
