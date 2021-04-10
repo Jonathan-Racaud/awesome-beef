@@ -68,18 +68,19 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
 
 ### Libraries
-- [bgfx](https://github.com/bkaradzic/bgfx) - A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
+- [BGFX](https://github.com/bkaradzic/bgfx) - A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
 - [Box2D-beef](https://github.com/jazzbre/box2d-beef) - 2D physics engine for games.
 - [Chipmunk2D-beef](https://github.com/jazzbre/Chipmunk2D-beef) - A simple, lightweight, fast and portable 2D rigid body physics library.
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
-- [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
 - [SoLoud-beef](https://github.com/jarikomppa/soloud) - easy to use, free, portable c/c++ audio engine for games.
 - [Vulkan-bf](https://github.com/ExoKomodo/Vulkan-bf) - Beef wrapper library for Vulkan.
 
 ## GUI
 *Libraries and frameworks for general GUI programming*
-
+- [ImGui]
+    - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
+    - [ImGuibgfx-beef](https://github.com/RogueMacro/imgui-beef) - ImGui wrapper using SDL2 and BGFX.
 - [NativeFileDialog-beef](https://github.com/jazzbre/box2d-beef) - Portable library to invoke native file dialogs.
 
 ## IoC
