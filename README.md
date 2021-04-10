@@ -12,7 +12,12 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
         - [Cryptography and Hashing](#cryptography-and-hashing)
         - [Noise](#noise)
     - [Command Line Interface Development](#command-line-interface-development)
+    - [Coroutines](#coroutines)
     - [Game Development](#game-development)
+        - [Engines](#engines)
+        - [Frameworks](#frameworks)
+        - [Libraries](#libraries)
+    - [GUI](#gui)
     - [IoC](#ioc)
     - [Logging](#logging)
     - [Scripting Engines](#scripting-engines)
@@ -46,18 +51,36 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [CowieCLI](https://github.com/RogueMacro/CowieCLI) - Awesome command line arguments parsing library.
 
+## Coroutines
+*Libraries related to coroutines and multithread programming*
+
+- [Minicoro-beef](https://github.com/jazzbre/box2d-beef) - Wrapper for the C asymetric coroutines library.
+
 ## Game Development
 *Awesome game development libraries and frameworks.*
 
-- [bgfx](https://github.com/bkaradzic/bgfx) - Beef bindings for BGFX. A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
+### Engines
+- [Strawberry](https://github.com/MattThorson/Strawberry) - A 2D game engine using SDL, focused on usability and simplicity.
+- [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
+
+### Frameworks
+- [Pile](https://github.com/EinBurgbauer/Pile) - A simple extendable game framework.
+- [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
+
+### Libraries
+- [bgfx](https://github.com/bkaradzic/bgfx) - A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
+- [Box2D-beef](https://github.com/jazzbre/box2d-beef) - 2D physics engine for games.
+- [Chipmunk2D-beef](https://github.com/jazzbre/Chipmunk2D-beef) - A simple, lightweight, fast and portable 2D rigid body physics library.
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
-- [Pile](https://github.com/EinBurgbauer/Pile) - A simple extendable game framework.
-- [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
-- [Strawberry](https://github.com/MattThorson/Strawberry) - A 2D game engine using SDL, focused on usability and simplicity.
-- [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
+- [SoLoud-beef](https://github.com/jarikomppa/soloud) - easy to use, free, portable c/c++ audio engine for games.
 - [Vulkan-bf](https://github.com/ExoKomodo/Vulkan-bf) - Beef wrapper library for Vulkan.
+
+## GUI
+*Libraries and frameworks for general GUI programming*
+
+- [NativeFileDialog-beef](https://github.com/jazzbre/box2d-beef) - Portable library to invoke native file dialogs.
 
 ## IoC
 *Inversion of Control libraries and frameworks*
@@ -87,7 +110,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
 
 # Projects and Articles
-*To show or explain you what beef is capable of.*
+*To show or explain what beef is capable of.*
 
 ## Dynamic Linking
 
