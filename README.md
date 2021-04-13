@@ -68,11 +68,13 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
 
 ### Libraries
-- [BGFX](https://github.com/bkaradzic/bgfx) - A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
+- [BGFX-beef](https://github.com/jazzbre/bgfx-beef) - A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
+    - Also linked in the official [BGFX repository](https://github.com/bkaradzic/bgfx/tree/master/bindings/bf). 
 - [Box2D-beef](https://github.com/jazzbre/box2d-beef) - 2D physics engine for games.
 - [Chipmunk2D-beef](https://github.com/jazzbre/Chipmunk2D-beef) - A simple, lightweight, fast and portable 2D rigid body physics library.
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
+- [SDL2-beef](https://github.com/jazzbre/sdl2-beef) - SDL2 Wrapper, synced with SDL2 shipped with Beef.
 - [SoLoud-beef](https://github.com/jarikomppa/soloud) - easy to use, free, portable c/c++ audio engine for games.
 - [Vulkan-bf](https://github.com/ExoKomodo/Vulkan-bf) - Beef wrapper library for Vulkan.
 
