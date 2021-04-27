@@ -54,7 +54,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Coroutines
 *Libraries related to coroutines and multithread programming*
 
-- [Minicoro-beef](https://github.com/jazzbre/box2d-beef) - Wrapper for the C asymetric coroutines library.
+- [Minicoro-beef](https://github.com/jazzbre/minicoro-beef) - Wrapper for the C asymetric coroutines library.
 
 ## Game Development
 *Awesome game development libraries and frameworks.*
@@ -84,7 +84,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - ImGui
     - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
     - [ImGuibgfx-beef](https://github.com/RogueMacro/imgui-beef) - ImGui wrapper using SDL2 and BGFX.
-- [NativeFileDialog-beef](https://github.com/jazzbre/box2d-beef) - Portable library to invoke native file dialogs.
+- [NativeFileDialog-beef](https://github.com/jazzbre/nativefiledialog-beef) - Portable library to invoke native file dialogs.
 
 ## IoC
 *Inversion of Control libraries and frameworks*
