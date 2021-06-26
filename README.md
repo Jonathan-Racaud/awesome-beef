@@ -11,6 +11,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Algorithms](#algorithms)
         - [Cryptography and Hashing](#cryptography-and-hashing)
         - [Noise](#noise)
+    - [Caching](#caching)
     - [Command Line Interface Development](#command-line-interface-development)
     - [Coroutines](#coroutines)
     - [Game Development](#game-development)
@@ -42,9 +43,13 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ### Cryptography and Hashing
 - [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
+- [Beef-OpenSSL](https://github.com/thibmo/Beef-OpenSSL) - Beef port of OpenSSL
 
 ### Noise
 - [FastNoise_Beef](https://github.com/EinBurgbauer/FastNoise_Beef) - Beef port of the FastNoise Lite library.
+
+### Caching
+- [System.Caching](https://github.com/thibmo/System.Caching) - A BeefLang implementation of .net System.Runtime.Caching, useful to prevent double-triggering, response caching, data caching, etc.
 
 ## Command Line Interface Development
 *Libraries for building CLI applications*
