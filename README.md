@@ -42,8 +42,8 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Libraries providing implementations of algorithms*
 
 ### Cryptography and Hashing
-- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
-- [Beef-OpenSSL](https://github.com/thibmo/Beef-OpenSSL) - Beef port of OpenSSL
+- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms.
+- [Beef-OpenSSL](https://github.com/thibmo/Beef-OpenSSL) - Beef port of OpenSSL.
 
 ### Noise
 - [FastNoise_Beef](https://github.com/EinBurgbauer/FastNoise_Beef) - Beef port of the FastNoise Lite library.
@@ -96,7 +96,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## IoC
 *Inversion of Control libraries and frameworks*
 
-- [Steak.DependencyInjection](https://github.com/RogueMacro/Steak.DependencyInjection) - Simple dependency injection library
+- [Steak.DependencyInjection](https://github.com/RogueMacro/Steak.DependencyInjection) - Simple dependency injection library.
 
 ## Logging
 *Logging libraries and frameworks.*
@@ -125,7 +125,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Dynamic Linking
 
-- [Beef DLL Creation & Research](https://m0n7y5.github.io/beef-dll-creation-and-research-2/) - Showcase of a fully functional Beef DLL
+- [Beef DLL Creation & Research](https://m0n7y5.github.io/beef-dll-creation-and-research-2/) - Showcase of a fully functional Beef DLL.
 
 ##  Networking
 
