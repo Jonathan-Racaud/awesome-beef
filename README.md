@@ -42,8 +42,8 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Libraries providing implementations of algorithms*
 
 ### Cryptography and Hashing
-- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms
-- [Beef-OpenSSL](https://github.com/thibmo/Beef-OpenSSL) - Beef port of OpenSSL
+- [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms.
+- [Beef-OpenSSL](https://github.com/thibmo/Beef-OpenSSL) - Beef port of OpenSSL.
 
 ### Noise
 - [FastNoise_Beef](https://github.com/EinBurgbauer/FastNoise_Beef) - Beef port of the FastNoise Lite library.
@@ -77,6 +77,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - Also linked in the official [BGFX repository](https://github.com/bkaradzic/bgfx/tree/master/bindings/bf). 
 - [Box2D-beef](https://github.com/jazzbre/box2d-beef) - 2D physics engine for games.
 - [Chipmunk2D-beef](https://github.com/jazzbre/Chipmunk2D-beef) - A simple, lightweight, fast and portable 2D rigid body physics library.
+- [directx-beef](https://github.com/aharabada/directx-beef) - Beef wrapper library for Direct3D 11.
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
 - [SDL2-beef](https://github.com/jazzbre/sdl2-beef) - SDL2 Wrapper, synced with SDL2 shipped with Beef.
@@ -95,7 +96,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## IoC
 *Inversion of Control libraries and frameworks*
 
-- [Steak.DependencyInjection](https://github.com/RogueMacro/Steak.DependencyInjection) - Simple dependency injection library
+- [Steak.DependencyInjection](https://github.com/RogueMacro/Steak.DependencyInjection) - Simple dependency injection library.
 
 ## Logging
 *Logging libraries and frameworks.*
@@ -124,7 +125,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Dynamic Linking
 
-- [Beef DLL Creation & Research](https://m0n7y5.github.io/beef-dll-creation-and-research-2/) - Showcase of a fully functional Beef DLL
+- [Beef DLL Creation & Research](https://m0n7y5.github.io/beef-dll-creation-and-research-2/) - Showcase of a fully functional Beef DLL.
 
 ##  Networking
 
