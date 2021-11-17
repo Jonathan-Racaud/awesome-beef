@@ -24,6 +24,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Scripting Engines](#scripting-engines)
     - [Serialization](#serialization)
     - [Themes](#themes)
+    - [Text Processing](#text-processing)
 - [Projects and Articles](#projects-and-articles)
     - [Dynamic Linking](#dynamic-linking)
     - [Networking](#networking)
@@ -119,6 +120,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [OneDarkPro](https://github.com/thibmo/BeefIDE-OneDarkPro) - Atom's iconic One Dark theme.
 - [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
+
+## Text Processing
+*Libraries for parsing and manipulating plain texts.*
+
+- [TinyRegex](https://github.com/disarray2077/TinyRegex) - Tiny implementation of a subset of Regex.
 
 # Projects and Articles
 *To show or explain what beef is capable of.*
