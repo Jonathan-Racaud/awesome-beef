@@ -118,6 +118,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Themes
 *IDE themes.*
 
+- [Dracula](https://github.com/fhornung/beef-dracula) - Dracula theme.
 - [OneDarkPro](https://github.com/thibmo/BeefIDE-OneDarkPro) - Atom's iconic One Dark theme.
 - [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
 
