@@ -21,6 +21,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [GUI](#gui)
     - [IoC](#ioc)
     - [Logging](#logging)
+    - [Networking](#networking)
     - [Scripting Engines](#scripting-engines)
     - [Serialization](#serialization)
     - [Themes](#themes)
@@ -104,6 +105,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Logging libraries and frameworks.*
 
 - [Steak.Logging](https://github.com/RogueMacro/Steak.Logging) - An awesome logging library for Beef.
+
+## Networking
+*Networking related libraries*
+
+- [Beef-Net](https://github.com/thibmo/Beef-Net) - BeefLang networking library, based on lNet
 
 ## Scripting Engines
 *Awesome scripting libraries.*
