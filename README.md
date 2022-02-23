@@ -35,7 +35,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *The official documentation and resource for the Beef programming language.*
 
 - [Official website](https://beeflang.org) - Official website of the Beef programming language.
-- [Official documentation](https://beeflang.org/docs) - Official documentation explaining how the language wworks and its philosophy.
+- [Official documentation](https://beeflang.org/docs) - Official documentation explaining how the language works and its philosophy.
 - [Corelib documentation](https://www.beeflang.org/docs/doxygen/corlib/html/index.html) - Auto generated documentation for the core library.
 - [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE.
 
@@ -48,7 +48,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Beef-OpenSSL](https://github.com/thibmo/Beef-OpenSSL) - Beef port of OpenSSL.
 
 ### Noise
-- [FastNoise_Beef](https://github.com/EinBurgbauer/FastNoise_Beef) - Beef port of the FastNoise Lite library.
+- [FastNoise_Beef](https://github.com/EinScott/FastNoise_Beef) - Beef port of the FastNoise Lite library.
 
 ### Caching
 - [System.Caching](https://github.com/thibmo/System.Caching) - A BeefLang implementation of .net System.Runtime.Caching, useful to prevent double-triggering, response caching, data caching, etc.
@@ -71,7 +71,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Tilengine-beef](https://github.com/rootbeerking/Tilengine-Beef) - Beef Language wrapper for Tilengine 2D Graphics Engine.
 
 ### Frameworks
-- [Pile](https://github.com/EinBurgbauer/Pile) - A simple extendable game framework.
+- [Pile](https://github.com/EinScott/Pile) - A simple extendable game framework.
 - [Raylib-beef](https://github.com/M0n7y5/raylib-beef) - A raylib binding for Beef programming language.
 
 ### Libraries
@@ -120,6 +120,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Libraries for serializing and parsing text*
 - [Atma.Json](https://github.com/xposure/Atma.Json) - Json serialization framework.
 - [Beef-toml](https://github.com/killamaaki/beef-toml) - Toml parser/serializer library.
+- [bon](https://github.com/EinScott/bon) - A reflection based structure serialization library designed for Beef.
 - [Xml-Beef](https://github.com/thibmo/Xml-Beef) - Single-file XML parser in Beef with doctype support.
 
 ## Themes
