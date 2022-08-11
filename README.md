@@ -88,7 +88,8 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [sokol-beef](https://github.com/kochol/sokol-beef) - Auto generated library for [sokol](https://github.com/floooh/sokol) headers.
 - [SoLoud-beef](https://github.com/jarikomppa/soloud) - easy to use, free, portable c/c++ audio engine for games.
 - [SPIRV-Cross-Beef](https://github.com/jayrulez/SPIRV-Cross-Beef) - SPIRV-Cross bindings.
-- [WGPU-beef](https://github.com/MineGame159/awesome-beef) - Beef wrapper library for WGPU (more specifically wgpu-native).
+- [WGPU-beef](https://github.com/MineGame159/wgpu-beef) - Beef wrapper library for WGPU (more specifically wgpu-native).
+- [Shaderc-beef](https://github.com/MineGame159/shaderc-beef) - A Beef wrapper library for [Shaderc](https://github.com/google/shaderc).
 
 ## GUI
 *Libraries and frameworks for general GUI programming*
