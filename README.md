@@ -7,6 +7,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 # Summary
 - [Official Resources](#official-resources)
+- [Tools](#tools)
     - [LSP](#lsp)
 - [Frameworks and Libraries](#frameworks-and-libraries)
     - [Algorithms](#algorithms)
@@ -40,8 +41,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Corelib documentation](https://www.beeflang.org/docs/doxygen/corlib/html/index.html) - Auto generated documentation for the core library.
 - [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE.
 
+# Tools
 ## LSP
-An unofficial LSP compatible with Visual Studio Code and other LSP-compatible editors is available at: [Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp)
+An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension is available at: [Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp)
 
 # Frameworks and Libraries
 ## Algorithms
