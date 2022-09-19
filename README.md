@@ -27,6 +27,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Themes](#themes)
     - [Text Processing](#text-processing)
 - [Projects and Articles](#projects-and-articles)
+    - [Tools](#tools)
     - [Dynamic Linking](#dynamic-linking)
     - [Networking](#networking)
 - [Contributing](#contributing)
@@ -142,6 +143,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 # Projects and Articles
 *To show or explain what beef is capable of.*
+
+## Tools
+- [Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp) - Language server for Beef with a VS Code extension.
 
 ## Dynamic Linking
 
