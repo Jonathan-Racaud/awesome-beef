@@ -22,6 +22,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
         - [Libraries](#libraries)
     - [GUI](#gui)
     - [IoC](#ioc)
+    - [Image](#image)
     - [Logging](#logging)
     - [Networking](#networking)
     - [Scripting Engines](#scripting-engines)
@@ -111,6 +112,11 @@ An unofficial LSP server which works with any LSP-compatible editor and a Visual
 *Inversion of Control libraries and frameworks*
 
 - [Steak.DependencyInjection](https://github.com/RogueMacro/Steak.DependencyInjection) - Simple dependency injection library.
+
+## Image
+*Libraries for image loading and processing*
+
+- [StbImageBeef](https://github.com/StbBeef/StbImageBeef) - Beef port of the stb_image.h C header library.
 
 ## Logging
 *Logging libraries and frameworks.*
