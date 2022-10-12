@@ -138,6 +138,7 @@ An unofficial LSP server which works with any LSP-compatible editor and a Visual
 - [Atma.Json](https://github.com/xposure/Atma.Json) - Json serialization framework.
 - [Beef-toml](https://github.com/killamaaki/beef-toml) - Toml parser/serializer library.
 - [bon](https://github.com/EinScott/bon) - A reflection based structure serialization library designed for Beef.
+- [json](https://github.com/EinScott/json) - A light arbitrary JSON tree read and write library.
 - [Xml-Beef](https://github.com/thibmo/Xml-Beef) - Single-file XML parser in Beef with doctype support.
 
 ## Themes
