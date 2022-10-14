@@ -48,7 +48,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 [Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp) - An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension.
 
 ## Editors
-[Try Beef](https://https://trybeef.netlify.app/) - A web based editor for compiling and running simple Beef programs.
+[Try Beef](https://trybeef.netlify.app/) - A web based editor for compiling and running simple Beef programs.
 
 # Frameworks and Libraries
 ## Algorithms
