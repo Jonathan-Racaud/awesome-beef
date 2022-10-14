@@ -1,7 +1,7 @@
 <div style="text-align:center"><img src="github_banner_transparent.png"/></div>
 
 # Awesome Beef [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-A curated list of awesome Beef framework, libraries and resources.
+A curated list of awesome Beef frameworks, libraries and resources.
 
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
@@ -9,6 +9,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Official Resources](#official-resources)
 - [Tools](#tools)
     - [LSP](#lsp)
+    - [Editors](#editors)
 - [Frameworks and Libraries](#frameworks-and-libraries)
     - [Algorithms](#algorithms)
         - [Cryptography and Hashing](#cryptography-and-hashing)
@@ -44,7 +45,10 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 # Tools
 ## LSP
-An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension is available at: [Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp)
+[Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp) - An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension.
+
+## Editors
+[Try Beef](https://https://trybeef.netlify.app/) - A web based editor for compiling and running simple Beef programs.
 
 # Frameworks and Libraries
 ## Algorithms
