@@ -12,6 +12,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Editors](#editors)
 - [Frameworks and Libraries](#frameworks-and-libraries)
     - [Algorithms](#algorithms)
+        - [Colors](#colors)
         - [Cryptography and Hashing](#cryptography-and-hashing)
         - [Noise](#noise)
     - [Caching](#caching)
@@ -53,6 +54,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 # Frameworks and Libraries
 ## Algorithms
 *Libraries providing implementations of algorithms*
+
+### Colors
+- [RGBeef](https://github.com/farism/RGBeef) - Create, convert, and manipulate color spaces.
 
 ### Cryptography and Hashing
 - [Beef-Hash](https://github.com/thibmo/Beef-Hash) - Collection of hashing algorithms.
