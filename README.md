@@ -15,6 +15,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
         - [Colors](#colors)
         - [Cryptography and Hashing](#cryptography-and-hashing)
         - [Noise](#noise)
+    - [Audio](#audio)
     - [Caching](#caching)
     - [Command Line Interface Development](#command-line-interface-development)
     - [Coroutines](#coroutines)
@@ -64,6 +65,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ### Noise
 - [FastNoise_Beef](https://github.com/EinScott/FastNoise_Beef) - Beef port of the FastNoise Lite library.
+
+## Audio
+- [Beef-FMOD](https://github.com/LauraRozier/Beef-FMOD) - Beef bindings for the FMOD audio processing library.
 
 ### Caching
 - [System.Caching](https://github.com/thibmo/System.Caching) - A BeefLang implementation of .net System.Runtime.Caching, useful to prevent double-triggering, response caching, data caching, etc.
