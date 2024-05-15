@@ -27,6 +27,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [GUI](#gui)
     - [IoC](#ioc)
     - [Image](#image)
+    - [Linq](#linq)
     - [Logging](#logging)
     - [Networking](#networking)
     - [Scripting Engines](#scripting-engines)
@@ -134,6 +135,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [StbImageBeef](https://github.com/StbBeef/StbImageBeef) - Beef port of the stb_image.h C header library.
 
+## Linq
+*Linq related libraries.*
+
+- [Beef.Linq](https://github.com/disarray2077/Beef.Linq) - An awesome Beef library to mimic .NETs linq, but better and faster.
+- 
 ## Logging
 *Logging libraries and frameworks.*
 
