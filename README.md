@@ -24,6 +24,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
         - [Engines](#engines)
         - [Frameworks](#frameworks)
         - [Libraries](#libraries)
+    - [Font](#font)
     - [GUI](#gui)
     - [IoC](#ioc)
     - [Image](#image)
