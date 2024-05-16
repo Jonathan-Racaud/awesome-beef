@@ -29,6 +29,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [IoC](#ioc)
     - [Image](#image)
     - [Logging](#logging)
+    - [Multimedia](#multimedia)
     - [Networking](#networking)
     - [Scripting Engines](#scripting-engines)
     - [Serialization](#serialization)
@@ -144,6 +145,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Logging libraries and frameworks.*
 
 - [Steak.Logging](https://github.com/RogueMacro/Steak.Logging) - An awesome logging library for Beef.
+
+## Multimedia
+*Multimedia related libraries.*
+
+- [FFmpeg-Beef](https://github.com/disarray2077/FFmpeg-Beef) - FFmpeg bindings for BeefLang.
 
 ## Networking
 *Networking related libraries*
