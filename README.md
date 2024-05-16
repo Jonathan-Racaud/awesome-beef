@@ -73,6 +73,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Audio
 - [Beef-FMOD](https://github.com/LauraRozier/Beef-FMOD) - Beef bindings for the FMOD audio processing library.
+- [BeefBass](https://github.com/disarray2077/BeefBass) - Beef Wrapper for the 'Bass' Audio Library.
 
 ## Caching
 - [System.Caching](https://github.com/thibmo/System.Caching) - A BeefLang implementation of .net System.Runtime.Caching, useful to prevent double-triggering, response caching, data caching, etc.
