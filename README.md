@@ -24,6 +24,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
         - [Engines](#engines)
         - [Frameworks](#frameworks)
         - [Libraries](#libraries)
+    - [Font](#font)
     - [GUI](#gui)
     - [IoC](#ioc)
     - [Image](#image)
@@ -73,7 +74,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Audio
 - [Beef-FMOD](https://github.com/LauraRozier/Beef-FMOD) - Beef bindings for the FMOD audio processing library.
 
-### Caching
+## Caching
 - [System.Caching](https://github.com/thibmo/System.Caching) - A BeefLang implementation of .net System.Runtime.Caching, useful to prevent double-triggering, response caching, data caching, etc.
 
 ## Command Line Interface Development
@@ -109,11 +110,14 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
 - [SDL2-beef](https://github.com/jazzbre/sdl2-beef) - SDL2 Wrapper, synced with SDL2 shipped with Beef.
+- [Shaderc-beef](https://github.com/MineGame159/shaderc-beef) - A Beef wrapper library for [Shaderc](https://github.com/google/shaderc).
 - [sokol-beef](https://github.com/kochol/sokol-beef) - Auto generated library for [sokol](https://github.com/floooh/sokol) headers.
 - [SoLoud-beef](https://github.com/jarikomppa/soloud) - easy to use, free, portable c/c++ audio engine for games.
 - [SPIRV-Cross-Beef](https://github.com/jayrulez/SPIRV-Cross-Beef) - SPIRV-Cross bindings.
 - [WGPU-beef](https://github.com/MineGame159/wgpu-beef) - Beef wrapper library for WGPU (more specifically wgpu-native).
-- [Shaderc-beef](https://github.com/MineGame159/shaderc-beef) - A Beef wrapper library for [Shaderc](https://github.com/google/shaderc).
+
+## Font
+- [BeefFNT](https://github.com/disarray2077/BeefFNT) - A Beef library for reading and writing AngelCode bitmap fonts in binary, XML, and text.
 
 ## GUI
 *Libraries and frameworks for general GUI programming*
