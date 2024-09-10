@@ -50,8 +50,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Official repository](https://github.com/beefytech/Beef) - Repository hosting the language and its associated IDE.
 
 # Tools
-## Installers
-[Beefinstall.com](https://beefinstall.com/) - An unofficial website with instructions to get pre-built binaries for Linux and Windows.
 
 ## LSP
 [Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp) - An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension.
