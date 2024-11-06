@@ -111,6 +111,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
 - [SDL2-beef](https://github.com/jazzbre/sdl2-beef) - SDL2 Wrapper, synced with SDL2 shipped with Beef.
+- [SDL3-Beef](https://github.com/Booklordofthedings/SDL3-Beef) - A binding for SDL3 to Beef, trying to be as close to the original interface as possible.
 - [Shaderc-beef](https://github.com/MineGame159/shaderc-beef) - A Beef wrapper library for [Shaderc](https://github.com/google/shaderc).
 - [sokol-beef](https://github.com/kochol/sokol-beef) - Auto generated library for [sokol](https://github.com/floooh/sokol) headers.
 - [SoLoud-beef](https://github.com/jarikomppa/soloud) - easy to use, free, portable c/c++ audio engine for games.
