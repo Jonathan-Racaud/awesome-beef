@@ -28,6 +28,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [GUI](#gui)
     - [IoC](#ioc)
     - [Image](#image)
+    - [Interoperability](#interoperability)
     - [Linq](#linq)
     - [Logging](#logging)
     - [Multimedia](#multimedia)
@@ -140,6 +141,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *Libraries for image loading and processing*
 
 - [StbImageBeef](https://github.com/StbBeef/StbImageBeef) - Beef port of the stb_image.h C header library.
+
+## Interoperability
+*Libraries related to interoperability*
+
+- [Collagen](https://github.com/zerkawei/Collagen) - Generates a C API to export Beef objects and to allow foreign implementations of Beef interfaces.
 
 ## Linq
 *Linq related libraries.*
