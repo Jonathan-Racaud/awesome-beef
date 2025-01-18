@@ -186,6 +186,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Text Processing
 *Libraries for parsing and manipulating plain texts.*
 
+- [Oregano](https://github.com/zerkawei/Oregano) - Regex implementation supporting captures, lookarounds and backreferences.
 - [TinyRegex](https://github.com/disarray2077/TinyRegex) - Tiny implementation of a subset of Regex.
 
 # Projects and Articles
