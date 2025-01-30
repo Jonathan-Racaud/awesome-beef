@@ -188,6 +188,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Dracula](https://github.com/fhornung/beef-dracula) - Dracula theme.
 - [OneDarkPro](https://github.com/thibmo/BeefIDE-OneDarkPro) - Atom's iconic One Dark theme.
 - [SimplyDark](https://github.com/M0n7y5/BeefIDE-SimplyDark) - Simple dark theme.
+- [SimplyLight](https://github.com/MineBill/SimplyLight) - Simple Visual Studio -esque light theme.
 
 ## Text Processing
 *Libraries for parsing and manipulating plain texts.*
