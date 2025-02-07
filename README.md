@@ -180,6 +180,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [bon](https://github.com/EinScott/bon) - A reflection based structure serialization library designed for Beef.
 - [json](https://github.com/EinScott/json) - A light arbitrary JSON tree read and write library.
 - [Xml-Beef](https://github.com/thibmo/Xml-Beef) - Single-file XML parser in Beef with doctype support.
+- [beef_sead](https://github.com/tomwjerry/beef_sead) - Base64 encoder and decoder.
 
 ## Themes
 *IDE themes.*
