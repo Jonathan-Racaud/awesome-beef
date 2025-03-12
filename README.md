@@ -128,6 +128,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
     - [ImGuibgfx-beef](https://github.com/jazzbre/imguibgfx-beef) - ImGui wrapper using SDL2 and BGFX.
     - [ImGui-Vulkan-beef](https://github.com/MineGame159/imgui-vulkan-beef) - Vulkan backend for Dear ImGui in Beef.
+- [LibUI-beef](https://github.com/guofeiyu2022/libui-beef) - A libui-ng binding for Beeflang
 - [Mince](https://github.com/SteveSmithSoftware/Mince) - A GUI Toolkit for use with the Beef Programming Language.
 - [NativeFileDialog-beef](https://github.com/jazzbre/nativefiledialog-beef) - Portable library to invoke native file dialogs.
 - [Ultralight-beef](https://github.com/kumikumi/Ultralight-beef) - Write UI code for your game/application with web technologies (HTML/CSS/JS) using a lightweight web renderer.
