@@ -171,8 +171,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Scripting Engines
 *Awesome scripting libraries.*
 
-- [KeraLua-Beef](https://github.com/disarray2077/KeraLua-Beef) - Native bindings of Lua 5.4 for BeefLang
+- [KeraLua-Beef](https://github.com/disarray2077/KeraLua-Beef) - Native bindings of Lua 5.4 for BeefLang.
 - [Lua-beef](https://github.com/thibmo/lua-beef) - BeefLang wrapper library for Lua.
+- [LuaTinker-Beef](https://github.com/disarray2077/LuaTinker-Beef) - A library to bind BeefLang and Lua together.
 
 ## Serialization
 *Libraries for serializing and parsing text*
