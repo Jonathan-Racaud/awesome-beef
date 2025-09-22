@@ -11,6 +11,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Installers](#installers)
     - [LSP](#lsp)
     - [Editors](#editors)
+    - [Binding Generators](#binding-generators)
 - [Frameworks and Libraries](#frameworks-and-libraries)
     - [Algorithms](#algorithms)
         - [Colors](#colors)
@@ -57,6 +58,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Editors
 [Try Beef](https://trybeef.netlify.app/) - A web based editor for compiling and running simple Beef programs.
+
+## Binding Generators
+[Rune's C2Beef Binding Generator](https://github.com/Rune-Magic/C2Beef-Binding-Generator) - A highly customizable binding generator
 
 # Frameworks and Libraries
 ## Algorithms
