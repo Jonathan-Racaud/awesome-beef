@@ -60,7 +60,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 [Try Beef](https://trybeef.netlify.app/) - A web based editor for compiling and running simple Beef programs.
 
 ## Binding Generators
-[Rune's C2Beef Binding Generator](https://github.com/Rune-Magic/C2Beef-Binding-Generator) - A highly customizable binding generator.
+- [Cpp2Beef](https://git.unicon-gmbh.de/Rune/Cpp2Beef) - Beef Binding Generator for C and C-Style C++.
 
 # Frameworks and Libraries
 ## Algorithms
@@ -121,7 +121,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [sokol-beef](https://github.com/kochol/sokol-beef) - Auto generated library for [sokol](https://github.com/floooh/sokol) headers.
 - [SoLoud-beef](https://github.com/jarikomppa/soloud) - easy to use, free, portable c/c++ audio engine for games.
 - [SPIRV-Cross-Beef](https://github.com/jayrulez/SPIRV-Cross-Beef) - SPIRV-Cross bindings.
-- [Vulkan-Bf](https://github.com/Rune-Magic/Vulkan-Bf) - Vulkan Bindings for Beef similar to Vulkan-Hpp.
+- [Vulkan-Beef](https://git.unicon-gmbh.de/Rune/Vulkan-Beef) - Vulkan Bindings for Beef similar to Vulkan-Hpp.
 - [WGPU-beef](https://github.com/MineGame159/wgpu-beef) - Beef wrapper library for WGPU (more specifically wgpu-native).
 
 ## Font
