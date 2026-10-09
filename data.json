@@ -1,0 +1,758 @@
+{
+  "$schema": "data.schema.json",
+  "metadata": {
+    "title": "Awesome Beef",
+    "description": "A curated list of awesome Beef frameworks, libraries and resources.",
+    "banner": "github_banner_transparent.png",
+    "badge": {
+      "text": "Awesome",
+      "url": "https://github.com/sindresorhus/awesome"
+    },
+    "inspiration": "https://github.com/vinta/awesome-python"
+  },
+  "categories": [
+    {
+      "id": "official-resources",
+      "title": "Official Resources",
+      "parent": null,
+      "description": "The official documentation and resource for the Beef programming language.",
+      "tags": ["documentation", "official"]
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "parent": null,
+      "tags": ["tooling"]
+    },
+    {
+      "id": "lsp",
+      "title": "LSP",
+      "parent": "tools",
+      "tags": ["lsp", "tooling"]
+    },
+    {
+      "id": "editors",
+      "title": "Editors",
+      "parent": "tools",
+      "tags": ["editor", "tooling"]
+    },
+    {
+      "id": "binding-generators",
+      "title": "Binding Generators",
+      "parent": "tools",
+      "tags": ["bindings", "interop", "codegen"]
+    },
+    {
+      "id": "frameworks-and-libraries",
+      "title": "Frameworks and Libraries",
+      "parent": null
+    },
+    {
+      "id": "algorithms",
+      "title": "Algorithms",
+      "parent": "frameworks-and-libraries",
+      "description": "Libraries providing implementations of algorithms",
+      "tags": ["algorithms"]
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "parent": "algorithms",
+      "tags": ["color"]
+    },
+    {
+      "id": "cryptography-and-hashing",
+      "title": "Cryptography and Hashing",
+      "parent": "algorithms",
+      "tags": ["cryptography", "hashing", "security"]
+    },
+    {
+      "id": "noise",
+      "title": "Noise",
+      "parent": "algorithms",
+      "tags": ["noise", "procedural-generation"]
+    },
+    {
+      "id": "audio",
+      "title": "Audio",
+      "parent": "frameworks-and-libraries",
+      "tags": ["audio"]
+    },
+    {
+      "id": "caching",
+      "title": "Caching",
+      "parent": "frameworks-and-libraries",
+      "tags": ["caching"]
+    },
+    {
+      "id": "cli",
+      "title": "Command Line Interface Development",
+      "parent": "frameworks-and-libraries",
+      "description": "Libraries for building CLI applications",
+      "tags": ["cli", "command-line"]
+    },
+    {
+      "id": "coroutines",
+      "title": "Coroutines",
+      "parent": "frameworks-and-libraries",
+      "description": "Libraries related to coroutines and multithread programming",
+      "tags": ["coroutines", "concurrency", "multithreading"]
+    },
+    {
+      "id": "game-development",
+      "title": "Game Development",
+      "parent": "frameworks-and-libraries",
+      "description": "Awesome game development libraries and frameworks.",
+      "tags": ["game-development"]
+    },
+    {
+      "id": "engines",
+      "title": "Engines",
+      "parent": "game-development",
+      "tags": ["game-development", "engine"]
+    },
+    {
+      "id": "game-frameworks",
+      "title": "Frameworks",
+      "parent": "game-development",
+      "tags": ["game-development", "framework"]
+    },
+    {
+      "id": "game-libraries",
+      "title": "Libraries",
+      "parent": "game-development",
+      "tags": ["game-development"]
+    },
+    {
+      "id": "font",
+      "title": "Font",
+      "parent": "frameworks-and-libraries",
+      "tags": ["font"]
+    },
+    {
+      "id": "gui",
+      "title": "GUI",
+      "parent": "frameworks-and-libraries",
+      "description": "Libraries and frameworks for general GUI programming",
+      "tags": ["gui"]
+    },
+    {
+      "id": "imgui",
+      "title": "ImGui",
+      "parent": "gui",
+      "tags": ["gui", "imgui"]
+    },
+    {
+      "id": "ioc",
+      "title": "IoC",
+      "parent": "frameworks-and-libraries",
+      "description": "Inversion of Control libraries and frameworks",
+      "tags": ["dependency-injection"]
+    },
+    {
+      "id": "image",
+      "title": "Image",
+      "parent": "frameworks-and-libraries",
+      "description": "Libraries for image loading and processing",
+      "tags": ["image"]
+    },
+    {
+      "id": "interoperability",
+      "title": "Interoperability",
+      "parent": "frameworks-and-libraries",
+      "description": "Libraries related to interoperability",
+      "tags": ["interop", "ffi"]
+    },
+    {
+      "id": "linq",
+      "title": "Linq",
+      "parent": "frameworks-and-libraries",
+      "description": "Linq related libraries.",
+      "tags": ["linq"]
+    },
+    {
+      "id": "logging",
+      "title": "Logging",
+      "parent": "frameworks-and-libraries",
+      "description": "Logging libraries and frameworks.",
+      "tags": ["logging"]
+    },
+    {
+      "id": "multimedia",
+      "title": "Multimedia",
+      "parent": "frameworks-and-libraries",
+      "description": "Multimedia related libraries.",
+      "tags": ["multimedia", "video", "audio"]
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "parent": "frameworks-and-libraries",
+      "description": "Networking related libraries",
+      "tags": ["networking"]
+    },
+    {
+      "id": "scripting-engines",
+      "title": "Scripting Engines",
+      "parent": "frameworks-and-libraries",
+      "description": "Awesome scripting libraries.",
+      "tags": ["scripting", "embedding"]
+    },
+    {
+      "id": "serialization",
+      "title": "Serialization",
+      "parent": "frameworks-and-libraries",
+      "description": "Libraries for serializing and parsing text",
+      "tags": ["serialization", "parsing"]
+    },
+    {
+      "id": "themes",
+      "title": "Themes",
+      "parent": "frameworks-and-libraries",
+      "description": "IDE themes.",
+      "tags": ["theme", "ide"]
+    },
+    {
+      "id": "text-processing",
+      "title": "Text Processing",
+      "parent": "frameworks-and-libraries",
+      "description": "Libraries for parsing and manipulating plain texts.",
+      "tags": ["text", "parsing"]
+    },
+    {
+      "id": "projects-and-articles",
+      "title": "Projects and Articles",
+      "parent": null,
+      "description": "To show or explain what beef is capable of.",
+      "tags": ["showcase", "article"]
+    },
+    {
+      "id": "dynamic-linking",
+      "title": "Dynamic Linking",
+      "parent": "projects-and-articles",
+      "tags": ["dll", "interop"]
+    },
+    {
+      "id": "projects-networking",
+      "title": "Networking",
+      "parent": "projects-and-articles",
+      "tags": ["networking", "example"]
+    }
+  ],
+  "entries": [
+    {
+      "name": "Official website",
+      "url": "https://beeflang.org",
+      "description": "Official website of the Beef programming language.",
+      "category": "official-resources",
+      "tags": ["official", "website"]
+    },
+    {
+      "name": "Official documentation",
+      "url": "https://beeflang.org/docs",
+      "description": "Official documentation explaining how the language works and its philosophy.",
+      "category": "official-resources",
+      "tags": ["official", "documentation"]
+    },
+    {
+      "name": "Corelib documentation",
+      "url": "https://www.beeflang.org/docs/doxygen/corlib/html/index.html",
+      "description": "Auto generated documentation for the core library.",
+      "category": "official-resources",
+      "tags": ["official", "documentation", "corelib"]
+    },
+    {
+      "name": "Official repository",
+      "url": "https://github.com/beefytech/Beef",
+      "description": "Repository hosting the language and its associated IDE.",
+      "category": "official-resources",
+      "tags": ["official", "source"]
+    },
+    {
+      "name": "Beef LSP",
+      "url": "https://github.com/MineGame159/Beef/tree/lsp/BeefLsp",
+      "description": "An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension.",
+      "category": "lsp",
+      "tags": ["lsp"]
+    },
+    {
+      "name": "Try Beef",
+      "url": "https://trybeef.netlify.app/",
+      "description": "A web based editor for compiling and running simple Beef programs.",
+      "category": "editors",
+      "tags": ["editor", "web"]
+    },
+    {
+      "name": "Cpp2Beef",
+      "url": "https://git.unicon-gmbh.de/Rune/Cpp2Beef",
+      "description": "Beef Binding Generator for C and C-Style C++.",
+      "category": "binding-generators",
+      "tags": ["bindings", "codegen", "c", "cpp"]
+    },
+    {
+      "name": "RGBeef",
+      "url": "https://github.com/farism/RGBeef",
+      "description": "Create, convert, and manipulate color spaces.",
+      "category": "colors",
+      "tags": ["color", "graphics"]
+    },
+    {
+      "name": "Beef-Hash",
+      "url": "https://github.com/thibmo/Beef-Hash",
+      "description": "Collection of hashing algorithms.",
+      "category": "cryptography-and-hashing",
+      "tags": ["hashing"]
+    },
+    {
+      "name": "Beef-OpenSSL",
+      "url": "https://github.com/thibmo/Beef-OpenSSL",
+      "description": "Beef port of OpenSSL.",
+      "category": "cryptography-and-hashing",
+      "tags": ["cryptography", "openssl"]
+    },
+    {
+      "name": "FastNoise_Beef",
+      "url": "https://github.com/EinScott/FastNoise_Beef",
+      "description": "Beef port of the FastNoise Lite library.",
+      "category": "noise",
+      "tags": ["noise", "procedural-generation"]
+    },
+    {
+      "name": "Beef-FMOD",
+      "url": "https://github.com/LauraRozier/Beef-FMOD",
+      "description": "Beef bindings for the FMOD audio processing library.",
+      "category": "audio",
+      "tags": ["audio", "bindings"]
+    },
+    {
+      "name": "BeefBass",
+      "url": "https://github.com/disarray2077/BeefBass",
+      "description": "Beef Wrapper for the 'Bass' Audio Library.",
+      "category": "audio",
+      "tags": ["audio"]
+    },
+    {
+      "name": "System.Caching",
+      "url": "https://github.com/thibmo/System.Caching",
+      "description": "A BeefLang implementation of .net System.Runtime.Caching, useful to prevent double-triggering, response caching, data caching, etc.",
+      "category": "caching",
+      "tags": ["caching"]
+    },
+    {
+      "name": "CowieCLI",
+      "url": "https://github.com/RogueMacro/CowieCLI",
+      "description": "Awesome command line arguments parsing library.",
+      "category": "cli",
+      "tags": ["cli", "command-line", "parsing"]
+    },
+    {
+      "name": "Minicoro-beef",
+      "url": "https://github.com/jazzbre/minicoro-beef",
+      "description": "Wrapper for the C asymetric coroutines library.",
+      "category": "coroutines",
+      "tags": ["coroutines", "concurrency"]
+    },
+    {
+      "name": "Strawberry",
+      "url": "https://github.com/MattThorson/Strawberry",
+      "description": "A 2D game engine using SDL, focused on usability and simplicity.",
+      "category": "engines",
+      "tags": ["game-development", "engine", "sdl", "2d"]
+    },
+    {
+      "name": "Tilengine-beef",
+      "url": "https://github.com/rootbeerking/Tilengine-Beef",
+      "description": "Beef Language wrapper for Tilengine 2D Graphics Engine.",
+      "category": "engines",
+      "tags": ["game-development", "engine", "graphics", "2d"]
+    },
+    {
+      "name": "Pile",
+      "url": "https://github.com/EinScott/Pile",
+      "description": "A simple extendable game framework.",
+      "category": "game-frameworks",
+      "tags": ["game-development", "framework"]
+    },
+    {
+      "name": "Raylib-beef",
+      "url": "https://github.com/Starpelly/raylib-beef",
+      "description": "Autogenerated raylib bindings for the newest version of raylib.",
+      "category": "game-frameworks",
+      "tags": ["game-development", "raylib", "bindings"]
+    },
+    {
+      "name": "Raylib-beef 3.7",
+      "url": "https://github.com/M0n7y5/raylib-beef",
+      "description": "Handmade bindings for the version 3.7 of raylib.",
+      "category": "game-frameworks",
+      "tags": ["game-development", "raylib", "bindings"]
+    },
+    {
+      "name": "BGFX-beef",
+      "url": "https://github.com/jazzbre/bgfx-beef",
+      "description": "A Cross-platform, graphics API agnostic, \"Bring Your Own Engine/Framework\" style rendering library.",
+      "category": "game-libraries",
+      "tags": ["game-development", "graphics", "rendering"],
+      "notes": [
+        {
+          "text": "Also linked in the official BGFX repository.",
+          "url": "https://github.com/bkaradzic/bgfx/tree/master/bindings/bf"
+        }
+      ]
+    },
+    {
+      "name": "Box2D-beef",
+      "url": "https://github.com/jazzbre/box2d-beef",
+      "description": "2D physics engine for games.",
+      "category": "game-libraries",
+      "tags": ["game-development", "physics", "2d"]
+    },
+    {
+      "name": "Bulkan",
+      "url": "https://github.com/jayrulez/Bulkan",
+      "description": "Low level Vulkan bindings.",
+      "category": "game-libraries",
+      "tags": ["game-development", "vulkan", "graphics"]
+    },
+    {
+      "name": "Chipmunk2D-beef",
+      "url": "https://github.com/jazzbre/Chipmunk2D-beef",
+      "description": "A simple, lightweight, fast and portable 2D rigid body physics library.",
+      "category": "game-libraries",
+      "tags": ["game-development", "physics", "2d"]
+    },
+    {
+      "name": "directx-beef",
+      "url": "https://github.com/aharabada/directx-beef",
+      "description": "Beef wrapper library for Direct3D 11.",
+      "category": "game-libraries",
+      "tags": ["game-development", "directx", "graphics"]
+    },
+    {
+      "name": "Dxc-Beef",
+      "url": "https://github.com/jayrulez/Dxc-Beef",
+      "description": "DirectXShaderCompiler bindings.",
+      "category": "game-libraries",
+      "tags": ["game-development", "directx", "shaders"],
+      "notes": [
+        {
+          "text": "DirectXShaderCompiler",
+          "url": "https://github.com/microsoft/DirectXShaderCompiler"
+        }
+      ]
+    },
+    {
+      "name": "Glfw-beef",
+      "url": "https://github.com/MineGame159/glfw-beef",
+      "description": "Beef wrapper library for GLFW.",
+      "category": "game-libraries",
+      "tags": ["game-development", "glfw", "windowing"]
+    },
+    {
+      "name": "Opengl-beef",
+      "url": "https://github.com/MineGame159/opengl-beef",
+      "description": "OpenGL loader for Beef.",
+      "category": "game-libraries",
+      "tags": ["game-development", "opengl", "graphics"]
+    },
+    {
+      "name": "SDL2-beef",
+      "url": "https://github.com/jazzbre/sdl2-beef",
+      "description": "SDL2 Wrapper, synced with SDL2 shipped with Beef.",
+      "category": "game-libraries",
+      "tags": ["game-development", "sdl", "windowing"]
+    },
+    {
+      "name": "SDL3-Beef",
+      "url": "https://github.com/Booklordofthedings/SDL3-Beef",
+      "description": "A binding for SDL3 to Beef, trying to be as close to the original interface as possible.",
+      "category": "game-libraries",
+      "tags": ["game-development", "sdl", "bindings"]
+    },
+    {
+      "name": "Shaderc-beef",
+      "url": "https://github.com/MineGame159/shaderc-beef",
+      "description": "A Beef wrapper library for Shaderc.",
+      "category": "game-libraries",
+      "tags": ["game-development", "shaders"],
+      "notes": [
+        {
+          "text": "Shaderc",
+          "url": "https://github.com/google/shaderc"
+        }
+      ]
+    },
+    {
+      "name": "sokol-beef",
+      "url": "https://github.com/kochol/sokol-beef",
+      "description": "Auto generated library for sokol headers.",
+      "category": "game-libraries",
+      "tags": ["game-development", "graphics"],
+      "notes": [
+        {
+          "text": "sokol",
+          "url": "https://github.com/floooh/sokol"
+        }
+      ]
+    },
+    {
+      "name": "SoLoud-beef",
+      "url": "https://github.com/jarikomppa/soloud",
+      "description": "easy to use, free, portable c/c++ audio engine for games.",
+      "category": "game-libraries",
+      "tags": ["game-development", "audio"]
+    },
+    {
+      "name": "SPIRV-Cross-Beef",
+      "url": "https://github.com/jayrulez/SPIRV-Cross-Beef",
+      "description": "SPIRV-Cross bindings.",
+      "category": "game-libraries",
+      "tags": ["game-development", "shaders", "vulkan"]
+    },
+    {
+      "name": "Vulkan-Beef",
+      "url": "https://git.unicon-gmbh.de/Rune/Vulkan-Beef",
+      "description": "Vulkan Bindings for Beef similar to Vulkan-Hpp.",
+      "category": "game-libraries",
+      "tags": ["game-development", "vulkan", "graphics"]
+    },
+    {
+      "name": "WGPU-beef",
+      "url": "https://github.com/MineGame159/wgpu-beef",
+      "description": "Beef wrapper library for WGPU (more specifically wgpu-native).",
+      "category": "game-libraries",
+      "tags": ["game-development", "graphics", "wgpu"]
+    },
+    {
+      "name": "BeefFNT",
+      "url": "https://github.com/disarray2077/BeefFNT",
+      "description": "A Beef library for reading and writing AngelCode bitmap fonts in binary, XML, and text.",
+      "category": "font",
+      "tags": ["font", "bitmap"]
+    },
+    {
+      "name": "ImGui-beef",
+      "url": "https://github.com/RogueMacro/imgui-beef",
+      "description": "Beef wrapper library for ImGui.",
+      "category": "imgui",
+      "tags": ["gui", "imgui"]
+    },
+    {
+      "name": "ImGuibgfx-beef",
+      "url": "https://github.com/jazzbre/imguibgfx-beef",
+      "description": "ImGui wrapper using SDL2 and BGFX.",
+      "category": "imgui",
+      "tags": ["gui", "imgui", "bgfx"]
+    },
+    {
+      "name": "ImGui-Vulkan-beef",
+      "url": "https://github.com/MineGame159/imgui-vulkan-beef",
+      "description": "Vulkan backend for Dear ImGui in Beef.",
+      "category": "imgui",
+      "tags": ["gui", "imgui", "vulkan"]
+    },
+    {
+      "name": "LibUI-beef",
+      "url": "https://github.com/guofeiyu2022/libui-beef",
+      "description": "A libui-ng binding for Beeflang.",
+      "category": "gui",
+      "tags": ["gui", "bindings"]
+    },
+    {
+      "name": "Mince",
+      "url": "https://github.com/SteveSmithSoftware/Mince",
+      "description": "A GUI Toolkit for use with the Beef Programming Language.",
+      "category": "gui",
+      "tags": ["gui"]
+    },
+    {
+      "name": "NativeFileDialog-beef",
+      "url": "https://github.com/jazzbre/nativefiledialog-beef",
+      "description": "Portable library to invoke native file dialogs.",
+      "category": "gui",
+      "tags": ["gui", "dialogs"]
+    },
+    {
+      "name": "Ultralight-beef",
+      "url": "https://github.com/kumikumi/Ultralight-beef",
+      "description": "Write UI code for your game/application with web technologies (HTML/CSS/JS) using a lightweight web renderer.",
+      "category": "gui",
+      "tags": ["gui", "web", "html"]
+    },
+    {
+      "name": "Steak.DependencyInjection",
+      "url": "https://github.com/RogueMacro/Steak.DependencyInjection",
+      "description": "Simple dependency injection library.",
+      "category": "ioc",
+      "tags": ["dependency-injection"]
+    },
+    {
+      "name": "StbImageBeef",
+      "url": "https://github.com/StbBeef/StbImageBeef",
+      "description": "Beef port of the stb_image.h C header library.",
+      "category": "image",
+      "tags": ["image", "graphics"]
+    },
+    {
+      "name": "Collagen",
+      "url": "https://github.com/zerkawei/Collagen",
+      "description": "Generates a C API to export Beef objects and to allow foreign implementations of Beef interfaces.",
+      "category": "interoperability",
+      "tags": ["interop", "ffi", "codegen"]
+    },
+    {
+      "name": "Beef.Linq",
+      "url": "https://github.com/disarray2077/Beef.Linq",
+      "description": "An awesome Beef library to mimic .NETs linq, but better and faster.",
+      "category": "linq",
+      "tags": ["linq"]
+    },
+    {
+      "name": "Steak.Logging",
+      "url": "https://github.com/RogueMacro/Steak.Logging",
+      "description": "An awesome logging library for Beef.",
+      "category": "logging",
+      "tags": ["logging"]
+    },
+    {
+      "name": "FFmpeg-Beef",
+      "url": "https://github.com/disarray2077/FFmpeg-Beef",
+      "description": "FFmpeg bindings for BeefLang.",
+      "category": "multimedia",
+      "tags": ["multimedia", "video", "audio", "ffmpeg"]
+    },
+    {
+      "name": "Beef-Net",
+      "url": "https://github.com/thibmo/Beef-Net",
+      "description": "BeefLang networking library, based on lNet.",
+      "category": "networking",
+      "tags": ["networking"]
+    },
+    {
+      "name": "KeraLua-Beef",
+      "url": "https://github.com/disarray2077/KeraLua-Beef",
+      "description": "Native bindings of Lua 5.4 for BeefLang.",
+      "category": "scripting-engines",
+      "tags": ["scripting", "lua"]
+    },
+    {
+      "name": "Lua-beef",
+      "url": "https://github.com/thibmo/lua-beef",
+      "description": "BeefLang wrapper library for Lua.",
+      "category": "scripting-engines",
+      "tags": ["scripting", "lua"]
+    },
+    {
+      "name": "LuaTinker-Beef",
+      "url": "https://github.com/disarray2077/LuaTinker-Beef",
+      "description": "A library to bind BeefLang and Lua together.",
+      "category": "scripting-engines",
+      "tags": ["scripting", "lua", "bindings"]
+    },
+    {
+      "name": "Atma.Json",
+      "url": "https://github.com/xposure/Atma.Json",
+      "description": "Json serialization framework.",
+      "category": "serialization",
+      "tags": ["serialization", "json"]
+    },
+    {
+      "name": "Beef-toml",
+      "url": "https://github.com/killamaaki/beef-toml",
+      "description": "Toml parser/serializer library.",
+      "category": "serialization",
+      "tags": ["serialization", "toml", "parsing"]
+    },
+    {
+      "name": "bon",
+      "url": "https://github.com/EinScott/bon",
+      "description": "A reflection based structure serialization library designed for Beef.",
+      "category": "serialization",
+      "tags": ["serialization", "reflection"]
+    },
+    {
+      "name": "json",
+      "url": "https://github.com/EinScott/json",
+      "description": "A light arbitrary JSON tree read and write library.",
+      "category": "serialization",
+      "tags": ["serialization", "json"]
+    },
+    {
+      "name": "Xml-Beef",
+      "url": "https://github.com/thibmo/Xml-Beef",
+      "description": "Single-file XML parser in Beef with doctype support.",
+      "category": "serialization",
+      "tags": ["serialization", "xml", "parsing"]
+    },
+    {
+      "name": "beef_sead",
+      "url": "https://github.com/tomwjerry/beef_sead",
+      "description": "Base64 encoder and decoder.",
+      "category": "serialization",
+      "tags": ["serialization", "base64"]
+    },
+    {
+      "name": "Base16TomorrowDark",
+      "url": "https://github.com/Jmacklin308/BeefIDE-Base16TomorrowDark",
+      "description": "Base 16 Tomorrow Dark Theme.",
+      "category": "themes",
+      "tags": ["theme", "ide"]
+    },
+    {
+      "name": "Dracula",
+      "url": "https://github.com/fhornung/beef-dracula",
+      "description": "Dracula theme.",
+      "category": "themes",
+      "tags": ["theme", "ide"]
+    },
+    {
+      "name": "OneDarkPro",
+      "url": "https://github.com/thibmo/BeefIDE-OneDarkPro",
+      "description": "Atom's iconic One Dark theme.",
+      "category": "themes",
+      "tags": ["theme", "ide"]
+    },
+    {
+      "name": "SimplyDark",
+      "url": "https://github.com/M0n7y5/BeefIDE-SimplyDark",
+      "description": "Simple dark theme.",
+      "category": "themes",
+      "tags": ["theme", "ide"]
+    },
+    {
+      "name": "SimplyLight",
+      "url": "https://github.com/MineBill/SimplyLight",
+      "description": "Simple Visual Studio -esque light theme.",
+      "category": "themes",
+      "tags": ["theme", "ide"]
+    },
+    {
+      "name": "Oregano",
+      "url": "https://github.com/zerkawei/Oregano",
+      "description": "Regex implementation supporting captures, lookarounds and backreferences.",
+      "category": "text-processing",
+      "tags": ["text", "regex"]
+    },
+    {
+      "name": "TinyRegex",
+      "url": "https://github.com/disarray2077/TinyRegex",
+      "description": "Tiny implementation of a subset of Regex.",
+      "category": "text-processing",
+      "tags": ["text", "regex"]
+    },
+    {
+      "name": "Beef DLL Creation & Research",
+      "url": "https://m0n7y5.github.io/beef-dll-creation-and-research-2/",
+      "description": "Showcase of a fully functional Beef DLL.",
+      "category": "dynamic-linking",
+      "tags": ["dll", "interop", "article"]
+    },
+    {
+      "name": "SampleListener",
+      "url": "https://github.com/jairopaiva/SampleListener",
+      "description": "Example of an echo server showing the use of System.Net.Socket to listen for clients connections.",
+      "category": "projects-networking",
+      "tags": ["networking", "example"]
+    }
+  ]
+}
