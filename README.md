@@ -8,7 +8,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 # Summary
 - [Official Resources](#official-resources)
 - [Tools](#tools)
-    - [Installers](#installers)
     - [LSP](#lsp)
     - [Editors](#editors)
     - [Binding Generators](#binding-generators)
@@ -27,6 +26,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
         - [Libraries](#libraries)
     - [Font](#font)
     - [GUI](#gui)
+        - [ImGui](#imgui)
     - [IoC](#ioc)
     - [Image](#image)
     - [Interoperability](#interoperability)
@@ -40,10 +40,10 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [Text Processing](#text-processing)
 - [Projects and Articles](#projects-and-articles)
     - [Dynamic Linking](#dynamic-linking)
-    - [Networking](#networking)
+    - [Networking](#networking-1)
 - [Contributing](#contributing)
 
-# Official resources
+# Official Resources
 *The official documentation and resource for the Beef programming language.*
 
 - [Official website](https://beeflang.org) - Official website of the Beef programming language.
@@ -54,15 +54,16 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 # Tools
 
 ## LSP
-[Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp) - An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension.
+- [Beef LSP](https://github.com/MineGame159/Beef/tree/lsp/BeefLsp) - An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension.
 
 ## Editors
-[Try Beef](https://trybeef.netlify.app/) - A web based editor for compiling and running simple Beef programs.
+- [Try Beef](https://trybeef.netlify.app/) - A web based editor for compiling and running simple Beef programs.
 
 ## Binding Generators
 - [Cpp2Beef](https://git.unicon-gmbh.de/Rune/Cpp2Beef) - Beef Binding Generator for C and C-Style C++.
 
 # Frameworks and Libraries
+
 ## Algorithms
 *Libraries providing implementations of algorithms*
 
@@ -107,18 +108,21 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ### Libraries
 - [BGFX-beef](https://github.com/jazzbre/bgfx-beef) - A Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
-    - Also linked in the official [BGFX repository](https://github.com/bkaradzic/bgfx/tree/master/bindings/bf). 
+    - [Also linked in the official BGFX repository.](https://github.com/bkaradzic/bgfx/tree/master/bindings/bf)
 - [Box2D-beef](https://github.com/jazzbre/box2d-beef) - 2D physics engine for games.
 - [Bulkan](https://github.com/jayrulez/Bulkan) - Low level Vulkan bindings.
 - [Chipmunk2D-beef](https://github.com/jazzbre/Chipmunk2D-beef) - A simple, lightweight, fast and portable 2D rigid body physics library.
 - [directx-beef](https://github.com/aharabada/directx-beef) - Beef wrapper library for Direct3D 11.
-- [Dxc-Beef](https://github.com/jayrulez/Dxc-Beef) - [DirectXShaderCompiler](https://github.com/microsoft/DirectXShaderCompiler) bindings
+- [Dxc-Beef](https://github.com/jayrulez/Dxc-Beef) - DirectXShaderCompiler bindings.
+    - [DirectXShaderCompiler](https://github.com/microsoft/DirectXShaderCompiler)
 - [Glfw-beef](https://github.com/MineGame159/glfw-beef) - Beef wrapper library for GLFW.
 - [Opengl-beef](https://github.com/MineGame159/opengl-beef) - OpenGL loader for Beef.
 - [SDL2-beef](https://github.com/jazzbre/sdl2-beef) - SDL2 Wrapper, synced with SDL2 shipped with Beef.
 - [SDL3-Beef](https://github.com/Booklordofthedings/SDL3-Beef) - A binding for SDL3 to Beef, trying to be as close to the original interface as possible.
-- [Shaderc-beef](https://github.com/MineGame159/shaderc-beef) - A Beef wrapper library for [Shaderc](https://github.com/google/shaderc).
-- [sokol-beef](https://github.com/kochol/sokol-beef) - Auto generated library for [sokol](https://github.com/floooh/sokol) headers.
+- [Shaderc-beef](https://github.com/MineGame159/shaderc-beef) - A Beef wrapper library for Shaderc.
+    - [Shaderc](https://github.com/google/shaderc)
+- [sokol-beef](https://github.com/kochol/sokol-beef) - Auto generated library for sokol headers.
+    - [sokol](https://github.com/floooh/sokol)
 - [SoLoud-beef](https://github.com/jarikomppa/soloud) - easy to use, free, portable c/c++ audio engine for games.
 - [SPIRV-Cross-Beef](https://github.com/jayrulez/SPIRV-Cross-Beef) - SPIRV-Cross bindings.
 - [Vulkan-Beef](https://git.unicon-gmbh.de/Rune/Vulkan-Beef) - Vulkan Bindings for Beef similar to Vulkan-Hpp.
@@ -129,14 +133,16 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## GUI
 *Libraries and frameworks for general GUI programming*
-- ImGui
-    - [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
-    - [ImGuibgfx-beef](https://github.com/jazzbre/imguibgfx-beef) - ImGui wrapper using SDL2 and BGFX.
-    - [ImGui-Vulkan-beef](https://github.com/MineGame159/imgui-vulkan-beef) - Vulkan backend for Dear ImGui in Beef.
-- [LibUI-beef](https://github.com/guofeiyu2022/libui-beef) - A libui-ng binding for Beeflang
+
+- [LibUI-beef](https://github.com/guofeiyu2022/libui-beef) - A libui-ng binding for Beeflang.
 - [Mince](https://github.com/SteveSmithSoftware/Mince) - A GUI Toolkit for use with the Beef Programming Language.
 - [NativeFileDialog-beef](https://github.com/jazzbre/nativefiledialog-beef) - Portable library to invoke native file dialogs.
 - [Ultralight-beef](https://github.com/kumikumi/Ultralight-beef) - Write UI code for your game/application with web technologies (HTML/CSS/JS) using a lightweight web renderer.
+
+### ImGui
+- [ImGui-beef](https://github.com/RogueMacro/imgui-beef) - Beef wrapper library for ImGui.
+- [ImGuibgfx-beef](https://github.com/jazzbre/imguibgfx-beef) - ImGui wrapper using SDL2 and BGFX.
+- [ImGui-Vulkan-beef](https://github.com/MineGame159/imgui-vulkan-beef) - Vulkan backend for Dear ImGui in Beef.
 
 ## IoC
 *Inversion of Control libraries and frameworks*
@@ -171,7 +177,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Networking
 *Networking related libraries*
 
-- [Beef-Net](https://github.com/thibmo/Beef-Net) - BeefLang networking library, based on lNet
+- [Beef-Net](https://github.com/thibmo/Beef-Net) - BeefLang networking library, based on lNet.
 
 ## Scripting Engines
 *Awesome scripting libraries.*
@@ -182,6 +188,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Serialization
 *Libraries for serializing and parsing text*
+
 - [Atma.Json](https://github.com/xposure/Atma.Json) - Json serialization framework.
 - [Beef-toml](https://github.com/killamaaki/beef-toml) - Toml parser/serializer library.
 - [bon](https://github.com/EinScott/bon) - A reflection based structure serialization library designed for Beef.
@@ -208,18 +215,13 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *To show or explain what beef is capable of.*
 
 ## Dynamic Linking
-
 - [Beef DLL Creation & Research](https://m0n7y5.github.io/beef-dll-creation-and-research-2/) - Showcase of a fully functional Beef DLL.
 
-##  Networking
-
+## Networking
 - [SampleListener](https://github.com/jairopaiva/SampleListener) - Example of an echo server showing the use of System.Net.Socket to listen for clients connections.
-
-
----
 
 # Contributing
 
-Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/Jonathan-Racaud/awesome-beef/blob/master/CONTRIBUTING.md) first.
+Your contributions are always welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
 
-I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/Jonathan-Racaud/awesome-beef/pulls) by adding :+1: to them. Pull requests will be merged when their votes reach **20**.
+I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](pulls) by adding :+1: to them. Pull requests will be merged when their votes reach **20**.
