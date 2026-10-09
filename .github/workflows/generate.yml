@@ -1,4 +1,4 @@
-name: Generate README
+name: Generate README and site
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  generate-readme:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -23,17 +23,19 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate README
-        run: python generate_readme.py
+      - name: Generate README and site
+        run: |
+          python generate_readme.py
+          python generate_site.py
 
-      - name: Commit and push README
+      - name: Commit and push generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md site/index.html
           if git diff --cached --quiet; then
-            echo "No changes to README.md"
+            echo "No changes to generated files"
           else
-            git commit -m "chore: regenerate README from data.json"
+            git commit -m "chore: regenerate README and site from data.json"
             git push
           fi

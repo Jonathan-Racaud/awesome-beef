@@ -8,3 +8,7 @@ devenv.local.yaml
 
 # pre-commit
 .pre-commit-config.yaml
+
+# Python
+__pycache__/
+*.pyc

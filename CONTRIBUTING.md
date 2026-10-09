@@ -5,9 +5,14 @@ Your contributions are always welcome!
 ## The single source of truth
 
 This list is maintained in [`data.json`](data.json). Do **not** edit
-[`README.md`](README.md) directly — it is generated from `data.json` by
-[`generate_readme.py`](generate_readme.py), and a GitHub Action regenerates it
+[`README.md`](README.md) or [`site/index.html`](site/index.html) directly — they
+are generated from `data.json` by
+[`generate_readme.py`](generate_readme.py) and
+[`generate_site.py`](generate_site.py), and a GitHub Action regenerates them
 automatically whenever `data.json` changes. Edit `data.json` instead.
+
+The static website's stylesheet, [`site/style.css`](site/style.css), is the only
+hand-edited file in the `site/` directory.
 
 ## Guidelines
 
