@@ -4,12 +4,12 @@ Your contributions are always welcome!
 
 ## The single source of truth
 
-This list is maintained in [`data.json`](data.json). Do **not** edit
+This list is maintained in [`curated.json`](curated.json). Do **not** edit
 [`README.md`](README.md) or [`site/index.html`](site/index.html) directly — they
-are generated from `data.json` by
+are generated from `curated.json` by
 [`generate_readme.py`](generate_readme.py) and
 [`generate_site.py`](generate_site.py), and a GitHub Action regenerates them
-automatically whenever `data.json` changes. Edit `data.json` instead.
+automatically whenever `curated.json` changes. Edit `curated.json` instead.
 
 The static website's stylesheet, [`site/style.css`](site/style.css), is the only
 hand-edited file in the `site/` directory.
@@ -19,7 +19,7 @@ hand-edited file in the `site/` directory.
 - Add one link per Pull Request.
     - Make sure the PR title is in the format `Add project-name`.
     - Write down the reason why the library is awesome.
-- Add a new entry to `data.json` in the appropriate `categories` bucket.
+- Add a new entry to `curated.json` in the appropriate `categories` bucket.
     - Use the format: `{ "name": "project-name", "url": "https://example.com/", "description": "A short description ends with a period.", "category": "some-category", "tags": ["..."] }`.
     - Keep descriptions concise.
 - Add a category if needed.

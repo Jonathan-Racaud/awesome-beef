@@ -1,0 +1,1454 @@
+[
+  {
+    "id": 261356521,
+    "name": "StrawberryBF",
+    "owner": "MaddyThorson",
+    "description": "A tiny 2D game engine focused on usability and simplicity.",
+    "url": "https://github.com/MaddyThorson/StrawberryBF",
+    "created_at": "2020-05-05T03:52:13Z",
+    "updated_at": "2026-09-18T07:33:31Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 187961918,
+    "name": "ariyana",
+    "owner": "kochol",
+    "description": "Ariyana is an ECS work in progress game engine written in Orthodox C++ and Beef with a focus on cross-platform and multiplayer games",
+    "url": "https://github.com/kochol/ariyana",
+    "created_at": "2019-05-22T04:19:03Z",
+    "updated_at": "2026-09-02T05:45:33Z",
+    "tags": [
+      {
+        "name": "v0.7",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.7",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.7",
+        "commit": {
+          "sha": "7084be02b81e7bf4b54471de84b1e49cbefa5274",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/7084be02b81e7bf4b54471de84b1e49cbefa5274"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC43"
+      },
+      {
+        "name": "v0.6",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.6",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.6",
+        "commit": {
+          "sha": "e9ebe13a00e0f898ecc7d16e4ac4ef9b4af9e829",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/e9ebe13a00e0f898ecc7d16e4ac4ef9b4af9e829"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC42"
+      },
+      {
+        "name": "v0.5",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.5",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.5",
+        "commit": {
+          "sha": "be7b06d5f2d9b26af62e9bd428a10f885705cb58",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/be7b06d5f2d9b26af62e9bd428a10f885705cb58"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC41"
+      },
+      {
+        "name": "v0.4.1",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.4.1",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.4.1",
+        "commit": {
+          "sha": "3f628efe8258666e169d827182cb6ffddaa47394",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/3f628efe8258666e169d827182cb6ffddaa47394"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC40LjE="
+      },
+      {
+        "name": "v0.4",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.4",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.4",
+        "commit": {
+          "sha": "73bbf1add4ce18d75da9c2302add1eb4554d7693",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/73bbf1add4ce18d75da9c2302add1eb4554d7693"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC40"
+      },
+      {
+        "name": "v0.3",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.3",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.3",
+        "commit": {
+          "sha": "5d2fc3621605f77b8f3b5666b010935cad083360",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/5d2fc3621605f77b8f3b5666b010935cad083360"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC4z"
+      },
+      {
+        "name": "v0.2.5",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.2.5",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.2.5",
+        "commit": {
+          "sha": "b329f1d5291f9c64ccf84de03d72ee921c5eede9",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/b329f1d5291f9c64ccf84de03d72ee921c5eede9"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC4yLjU="
+      },
+      {
+        "name": "v0.2.4",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.2.4",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.2.4",
+        "commit": {
+          "sha": "25904fbb17bbfb2793a1538313beeb4729cedde1",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/25904fbb17bbfb2793a1538313beeb4729cedde1"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC4yLjQ="
+      },
+      {
+        "name": "v0.2.3",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.2.3",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.2.3",
+        "commit": {
+          "sha": "03869556ca03607184922d2d68802263ea8cee80",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/03869556ca03607184922d2d68802263ea8cee80"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC4yLjM="
+      },
+      {
+        "name": "v0.2.2",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.2.2",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.2.2",
+        "commit": {
+          "sha": "344478c5c218cc5f2f2f304253245cdc35bc77dc",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/344478c5c218cc5f2f2f304253245cdc35bc77dc"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC4yLjI="
+      },
+      {
+        "name": "v0.2.1",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.2.1",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.2.1",
+        "commit": {
+          "sha": "0a69496bad9b20cc98ea810f9b187f843711a026",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/0a69496bad9b20cc98ea810f9b187f843711a026"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC4yLjE="
+      },
+      {
+        "name": "v0.2",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.2",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.2",
+        "commit": {
+          "sha": "0d7161de1d8a52f595e96f110a989ea053c4c1b2",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/0d7161de1d8a52f595e96f110a989ea053c4c1b2"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC4y"
+      },
+      {
+        "name": "v0.1",
+        "zipball_url": "https://api.github.com/repos/kochol/ariyana/zipball/refs/tags/v0.1",
+        "tarball_url": "https://api.github.com/repos/kochol/ariyana/tarball/refs/tags/v0.1",
+        "commit": {
+          "sha": "b00127a713edea4201bfa087af278e666e3441b9",
+          "url": "https://api.github.com/repos/kochol/ariyana/commits/b00127a713edea4201bfa087af278e666e3441b9"
+        },
+        "node_id": "MDM6UmVmMTg3OTYxOTE4OnJlZnMvdGFncy92MC4x"
+      }
+    ]
+  },
+  {
+    "id": 295917784,
+    "name": "Spyro-Scope",
+    "owner": "FranklyGD",
+    "description": "A program that peers into the PS1 Spyro games' data that converts it to easier viewing for analysis",
+    "url": "https://github.com/FranklyGD/Spyro-Scope",
+    "created_at": "2020-09-16T03:55:46Z",
+    "updated_at": "2026-05-08T11:44:25Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "1.7.1",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.7.1",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.7.1",
+        "commit": {
+          "sha": "e82b8f86b857ce6abe5ace108f14eaf6bd195cca",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/e82b8f86b857ce6abe5ace108f14eaf6bd195cca"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjcuMQ=="
+      },
+      {
+        "name": "1.7",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.7",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.7",
+        "commit": {
+          "sha": "1876d3813656a6275763b795011e7b55cdd2599f",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/1876d3813656a6275763b795011e7b55cdd2599f"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjc="
+      },
+      {
+        "name": "1.6.1",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.6.1",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.6.1",
+        "commit": {
+          "sha": "2f2b45989e3c933b180a5325d7009efb1856a2c9",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/2f2b45989e3c933b180a5325d7009efb1856a2c9"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjYuMQ=="
+      },
+      {
+        "name": "1.6",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.6",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.6",
+        "commit": {
+          "sha": "466898213a892587ae260cc1aec6f8a9ea798bcf",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/466898213a892587ae260cc1aec6f8a9ea798bcf"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjY="
+      },
+      {
+        "name": "1.5.4",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.5.4",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.5.4",
+        "commit": {
+          "sha": "93387135812d7ef7d6ed4c379e8eaef6f48e7995",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/93387135812d7ef7d6ed4c379e8eaef6f48e7995"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjUuNA=="
+      },
+      {
+        "name": "1.5.3",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.5.3",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.5.3",
+        "commit": {
+          "sha": "ac93e0c2df92be698688adc12e0dd90286656d59",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/ac93e0c2df92be698688adc12e0dd90286656d59"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjUuMw=="
+      },
+      {
+        "name": "1.5.2",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.5.2",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.5.2",
+        "commit": {
+          "sha": "0a15d182321b31671ac919962c8c873db76a850f",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/0a15d182321b31671ac919962c8c873db76a850f"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjUuMg=="
+      },
+      {
+        "name": "1.5.1",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.5.1",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.5.1",
+        "commit": {
+          "sha": "c6da411c2a25f2b6e1196bf0d031eb58e198ea27",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/c6da411c2a25f2b6e1196bf0d031eb58e198ea27"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjUuMQ=="
+      },
+      {
+        "name": "1.5",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.5",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.5",
+        "commit": {
+          "sha": "25be1c0b6752a2fe0e4e781e31289456130b62a9",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/25be1c0b6752a2fe0e4e781e31289456130b62a9"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjU="
+      },
+      {
+        "name": "1.4.2",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.4.2",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.4.2",
+        "commit": {
+          "sha": "e43e85f5e2ea7b745e272763c4ced9f31920dfb5",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/e43e85f5e2ea7b745e272763c4ced9f31920dfb5"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjQuMg=="
+      },
+      {
+        "name": "1.4.1",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.4.1",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.4.1",
+        "commit": {
+          "sha": "a9c3ceb85785c116f7300ff819a75bdaf1f97abc",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/a9c3ceb85785c116f7300ff819a75bdaf1f97abc"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjQuMQ=="
+      },
+      {
+        "name": "1.4",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.4",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.4",
+        "commit": {
+          "sha": "ce4afce23ecbeaea6289467c9a621ea4f13eef92",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/ce4afce23ecbeaea6289467c9a621ea4f13eef92"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjQ="
+      },
+      {
+        "name": "1.3",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.3",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.3",
+        "commit": {
+          "sha": "fe4c0c2f9ca93a409f8ae596c7bc392dd42560c7",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/fe4c0c2f9ca93a409f8ae596c7bc392dd42560c7"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjM="
+      },
+      {
+        "name": "1.2",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.2",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.2",
+        "commit": {
+          "sha": "342e761a304c76499fd0a426032544b7d4c17fc6",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/342e761a304c76499fd0a426032544b7d4c17fc6"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjI="
+      },
+      {
+        "name": "1.1",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.1",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.1",
+        "commit": {
+          "sha": "49787dd1d10d21eb6f6a1c4618d3862d23a22948",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/49787dd1d10d21eb6f6a1c4618d3862d23a22948"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjE="
+      },
+      {
+        "name": "1.0",
+        "zipball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/zipball/refs/tags/1.0",
+        "tarball_url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/tarball/refs/tags/1.0",
+        "commit": {
+          "sha": "86349c3105cea2fe912882b80120d8a0b208a465",
+          "url": "https://api.github.com/repos/FranklyGD/Spyro-Scope/commits/86349c3105cea2fe912882b80120d8a0b208a465"
+        },
+        "node_id": "MDM6UmVmMjk1OTE3Nzg0OnJlZnMvdGFncy8xLjA="
+      }
+    ]
+  },
+  {
+    "id": 300286701,
+    "name": "imgui-beef",
+    "owner": "RogueMacro",
+    "description": "Dear ImGui wrapper for the Beef Programming Language",
+    "url": "https://github.com/RogueMacro/imgui-beef",
+    "created_at": "2020-10-01T13:19:38Z",
+    "updated_at": "2026-09-09T04:37:16Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "1.89.5",
+        "zipball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/zipball/refs/tags/1.89.5",
+        "tarball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/tarball/refs/tags/1.89.5",
+        "commit": {
+          "sha": "73f767f348e5db4b73e379d0082bf79ae5ac9ae3",
+          "url": "https://api.github.com/repos/RogueMacro/imgui-beef/commits/73f767f348e5db4b73e379d0082bf79ae5ac9ae3"
+        },
+        "node_id": "MDM6UmVmMzAwMjg2NzAxOnJlZnMvdGFncy8xLjg5LjU="
+      },
+      {
+        "name": "1.89.3",
+        "zipball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/zipball/refs/tags/1.89.3",
+        "tarball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/tarball/refs/tags/1.89.3",
+        "commit": {
+          "sha": "05702a3ba6e870e2d77691ac5c60bbe3791d7753",
+          "url": "https://api.github.com/repos/RogueMacro/imgui-beef/commits/05702a3ba6e870e2d77691ac5c60bbe3791d7753"
+        },
+        "node_id": "MDM6UmVmMzAwMjg2NzAxOnJlZnMvdGFncy8xLjg5LjM="
+      },
+      {
+        "name": "1.89.1dock",
+        "zipball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/zipball/refs/tags/1.89.1dock",
+        "tarball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/tarball/refs/tags/1.89.1dock",
+        "commit": {
+          "sha": "0573b2533f82fcc40d4ac6e7745ffa4884fe865f",
+          "url": "https://api.github.com/repos/RogueMacro/imgui-beef/commits/0573b2533f82fcc40d4ac6e7745ffa4884fe865f"
+        },
+        "node_id": "MDM6UmVmMzAwMjg2NzAxOnJlZnMvdGFncy8xLjg5LjFkb2Nr"
+      },
+      {
+        "name": "1.88",
+        "zipball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/zipball/refs/tags/1.88",
+        "tarball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/tarball/refs/tags/1.88",
+        "commit": {
+          "sha": "e650d749fff144652c591e5083bcba322c8621ec",
+          "url": "https://api.github.com/repos/RogueMacro/imgui-beef/commits/e650d749fff144652c591e5083bcba322c8621ec"
+        },
+        "node_id": "MDM6UmVmMzAwMjg2NzAxOnJlZnMvdGFncy8xLjg4"
+      },
+      {
+        "name": "0.0",
+        "zipball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/zipball/refs/tags/0.0",
+        "tarball_url": "https://api.github.com/repos/RogueMacro/imgui-beef/tarball/refs/tags/0.0",
+        "commit": {
+          "sha": "6dd0d3488d2b979c3b4a19fa3281a2054b04a96e",
+          "url": "https://api.github.com/repos/RogueMacro/imgui-beef/commits/6dd0d3488d2b979c3b4a19fa3281a2054b04a96e"
+        },
+        "node_id": "MDM6UmVmMzAwMjg2NzAxOnJlZnMvdGFncy8wLjA="
+      }
+    ]
+  },
+  {
+    "id": 260283224,
+    "name": "glfw-beef",
+    "owner": "MineGame159",
+    "description": "Beef wrapper library for GLFW",
+    "url": "https://github.com/MineGame159/glfw-beef",
+    "created_at": "2020-04-30T18:09:44Z",
+    "updated_at": "2026-04-21T11:29:48Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 283870540,
+    "name": "Steel",
+    "owner": "Beef-Community-Project",
+    "description": "The Steel Game Engine",
+    "url": "https://github.com/Beef-Community-Project/Steel",
+    "created_at": "2020-07-30T20:29:02Z",
+    "updated_at": "2021-12-21T16:42:51Z",
+    "tags": []
+  },
+  {
+    "id": 876613410,
+    "name": "SDL3-Beef",
+    "owner": "Booklordofthedings",
+    "description": "A Beef binding for SDL3",
+    "url": "https://github.com/Booklordofthedings/SDL3-Beef",
+    "created_at": "2024-10-22T09:12:19Z",
+    "updated_at": "2026-10-07T00:31:55Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "Initial",
+        "zipball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/zipball/refs/tags/Initial",
+        "tarball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/tarball/refs/tags/Initial",
+        "commit": {
+          "sha": "7715ce9ce28e5abf3ea985d3a1ccd1a6c15dfaa2",
+          "url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/commits/7715ce9ce28e5abf3ea985d3a1ccd1a6c15dfaa2"
+        },
+        "node_id": "REF_kwDONEAPIrFyZWZzL3RhZ3MvSW5pdGlhbA"
+      },
+      {
+        "name": "3.2.14.1",
+        "zipball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/zipball/refs/tags/3.2.14.1",
+        "tarball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/tarball/refs/tags/3.2.14.1",
+        "commit": {
+          "sha": "d8df10fb1303ebb141e38bf97bc43c49afe1ece2",
+          "url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/commits/d8df10fb1303ebb141e38bf97bc43c49afe1ece2"
+        },
+        "node_id": "REF_kwDONEAPIrJyZWZzL3RhZ3MvMy4yLjE0LjE"
+      },
+      {
+        "name": "3.2.14",
+        "zipball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/zipball/refs/tags/3.2.14",
+        "tarball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/tarball/refs/tags/3.2.14",
+        "commit": {
+          "sha": "4be4e48df9860f19fae4366267b591d7aa4c4df9",
+          "url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/commits/4be4e48df9860f19fae4366267b591d7aa4c4df9"
+        },
+        "node_id": "REF_kwDONEAPIrByZWZzL3RhZ3MvMy4yLjE0"
+      },
+      {
+        "name": "3.2.4.2",
+        "zipball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/zipball/refs/tags/3.2.4.2",
+        "tarball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/tarball/refs/tags/3.2.4.2",
+        "commit": {
+          "sha": "506bb87d60b5d096bffb83c5977d310ef46faf9c",
+          "url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/commits/506bb87d60b5d096bffb83c5977d310ef46faf9c"
+        },
+        "node_id": "REF_kwDONEAPIrFyZWZzL3RhZ3MvMy4yLjQuMg"
+      },
+      {
+        "name": "3.2.4.1",
+        "zipball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/zipball/refs/tags/3.2.4.1",
+        "tarball_url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/tarball/refs/tags/3.2.4.1",
+        "commit": {
+          "sha": "adc7174dac291f0c659224290cd0c824707d0f8c",
+          "url": "https://api.github.com/repos/Booklordofthedings/SDL3-Beef/commits/adc7174dac291f0c659224290cd0c824707d0f8c"
+        },
+        "node_id": "REF_kwDONEAPIrFyZWZzL3RhZ3MvMy4yLjQuMQ"
+      }
+    ]
+  },
+  {
+    "id": 268598567,
+    "name": "directx-beef",
+    "owner": "aharabada",
+    "description": "Beef wrapper library for directx",
+    "url": "https://github.com/aharabada/directx-beef",
+    "created_at": "2020-06-01T18:18:18Z",
+    "updated_at": "2026-10-07T00:31:51Z",
+    "tags": []
+  },
+  {
+    "id": 437696348,
+    "name": "BeefWin32",
+    "owner": "blat-blatnik",
+    "description": "Beef bindings for the Win32 API.",
+    "url": "https://github.com/blat-blatnik/BeefWin32",
+    "created_at": "2021-12-13T01:11:13Z",
+    "updated_at": "2025-10-23T14:14:18Z",
+    "tags": []
+  },
+  {
+    "id": 260762303,
+    "name": "lua-beef",
+    "owner": "LauraRozier",
+    "description": "BeefLang port of Lua 5.3 and 5.4",
+    "url": "https://github.com/LauraRozier/lua-beef",
+    "created_at": "2020-05-02T19:43:18Z",
+    "updated_at": "2023-05-27T22:32:28Z",
+    "tags": [
+      {
+        "name": "v1.0.0",
+        "zipball_url": "https://api.github.com/repos/LauraRozier/lua-beef/zipball/refs/tags/v1.0.0",
+        "tarball_url": "https://api.github.com/repos/LauraRozier/lua-beef/tarball/refs/tags/v1.0.0",
+        "commit": {
+          "sha": "9a1c5858fbf4dca2595e9a0aa89387c0d91dc42a",
+          "url": "https://api.github.com/repos/LauraRozier/lua-beef/commits/9a1c5858fbf4dca2595e9a0aa89387c0d91dc42a"
+        },
+        "node_id": "MDM6UmVmMjYwNzYyMzAzOnJlZnMvdGFncy92MS4wLjA="
+      },
+      {
+        "name": "rc1",
+        "zipball_url": "https://api.github.com/repos/LauraRozier/lua-beef/zipball/refs/tags/rc1",
+        "tarball_url": "https://api.github.com/repos/LauraRozier/lua-beef/tarball/refs/tags/rc1",
+        "commit": {
+          "sha": "e44598dfbb1dd739b64b2496f6b27271cb86206a",
+          "url": "https://api.github.com/repos/LauraRozier/lua-beef/commits/e44598dfbb1dd739b64b2496f6b27271cb86206a"
+        },
+        "node_id": "MDM6UmVmMjYwNzYyMzAzOnJlZnMvdGFncy9yYzE="
+      }
+    ]
+  },
+  {
+    "id": 264345799,
+    "name": "imgui-beef",
+    "owner": "qzole",
+    "description": "Beef wrapper library for ImGui",
+    "url": "https://github.com/qzole/imgui-beef",
+    "created_at": "2020-05-16T02:51:47Z",
+    "updated_at": "2025-08-30T19:55:21Z",
+    "tags": [
+      {
+        "name": "v0.2.0",
+        "zipball_url": "https://api.github.com/repos/qzole/imgui-beef/zipball/refs/tags/v0.2.0",
+        "tarball_url": "https://api.github.com/repos/qzole/imgui-beef/tarball/refs/tags/v0.2.0",
+        "commit": {
+          "sha": "1344381d7f8f12c989bd7a2a712cdc0309876d13",
+          "url": "https://api.github.com/repos/qzole/imgui-beef/commits/1344381d7f8f12c989bd7a2a712cdc0309876d13"
+        },
+        "node_id": "MDM6UmVmMjY0MzQ1Nzk5OnJlZnMvdGFncy92MC4yLjA="
+      },
+      {
+        "name": "v0.1.0",
+        "zipball_url": "https://api.github.com/repos/qzole/imgui-beef/zipball/refs/tags/v0.1.0",
+        "tarball_url": "https://api.github.com/repos/qzole/imgui-beef/tarball/refs/tags/v0.1.0",
+        "commit": {
+          "sha": "0a4f30476e08c3fb4903d120353763550e92a549",
+          "url": "https://api.github.com/repos/qzole/imgui-beef/commits/0a4f30476e08c3fb4903d120353763550e92a549"
+        },
+        "node_id": "MDM6UmVmMjY0MzQ1Nzk5OnJlZnMvdGFncy92MC4xLjA="
+      }
+    ]
+  },
+  {
+    "id": 270796517,
+    "name": "CurlBeef",
+    "owner": "kochol",
+    "description": "Beef bindings for curl library",
+    "url": "https://github.com/kochol/CurlBeef",
+    "created_at": "2020-06-08T19:19:42Z",
+    "updated_at": "2023-02-21T22:46:07Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 261460469,
+    "name": "Quickmaths-Beef",
+    "owner": "mr0x13f",
+    "description": "Public domain Beef vector library",
+    "url": "https://github.com/mr0x13f/Quickmaths-Beef",
+    "created_at": "2020-05-05T12:26:42Z",
+    "updated_at": "2025-01-31T12:44:32Z",
+    "tags": []
+  },
+  {
+    "id": 582547159,
+    "name": "FunWithBeef",
+    "owner": "maihd",
+    "description": "Programs make with Beef for fun and profit.",
+    "url": "https://github.com/maihd/FunWithBeef",
+    "created_at": "2022-12-27T07:03:28Z",
+    "updated_at": "2026-07-30T12:52:48Z",
+    "tags": []
+  },
+  {
+    "id": 321053758,
+    "name": "FastNoise_Beef",
+    "owner": "EinScott",
+    "description": "A beeflang port of the FastNoise Lite library.",
+    "url": "https://github.com/EinScott/FastNoise_Beef",
+    "created_at": "2020-12-13T11:56:27Z",
+    "updated_at": "2024-09-30T10:10:33Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 547587683,
+    "name": "try-beef",
+    "owner": "farism",
+    "description": "Try Beef Lang",
+    "url": "https://github.com/farism/try-beef",
+    "created_at": "2022-10-08T00:01:08Z",
+    "updated_at": "2026-05-07T20:57:39Z",
+    "tags": []
+  },
+  {
+    "id": 373272658,
+    "name": "System.Caching",
+    "owner": "LauraRozier",
+    "description": "System.Runtime.Caching for BeefLang",
+    "url": "https://github.com/LauraRozier/System.Caching",
+    "created_at": "2021-06-02T18:53:24Z",
+    "updated_at": "2026-07-09T05:32:33Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 459278148,
+    "name": "imgui-vulkan-beef",
+    "owner": "MineGame159",
+    "description": "Vulkan backend for Dear ImGui in Beef",
+    "url": "https://github.com/MineGame159/imgui-vulkan-beef",
+    "created_at": "2022-02-14T18:25:59Z",
+    "updated_at": "2025-01-07T02:00:24Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 329222378,
+    "name": "blockheroes",
+    "owner": "kochol",
+    "description": "Block Heroes is an Multi-player Tetrix like game",
+    "url": "https://github.com/kochol/blockheroes",
+    "created_at": "2021-01-13T07:05:40Z",
+    "updated_at": "2022-05-31T02:21:04Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 311381207,
+    "name": "Xml-Beef",
+    "owner": "LauraRozier",
+    "description": "Single-file XML library in Beef, heavily based on https://github.com/Dennis1000/verysimplexml/blob/master/Source/Xml.VerySimple.pas",
+    "url": "https://github.com/LauraRozier/Xml-Beef",
+    "created_at": "2020-11-09T15:26:02Z",
+    "updated_at": "2022-09-27T21:00:23Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 656927908,
+    "name": "Learn-Beef",
+    "owner": "seanpm2001",
+    "description": "\ud83d\udcda\ufe0f A repository for showcasing my knowledge of the Beef programming language, and continuing to learn the language.",
+    "url": "https://github.com/seanpm2001/Learn-Beef",
+    "created_at": "2023-06-22T00:07:47Z",
+    "updated_at": "2023-08-11T12:25:24Z",
+    "tags": []
+  },
+  {
+    "id": 656928178,
+    "name": "SNU_2D_ProgrammingTools_IDE_Beef",
+    "owner": "seanpm2001",
+    "description": "\u2328\ufe0f The Beef programming language IDE submodule for SNU Programming Tools (2D Mode)",
+    "url": "https://github.com/seanpm2001/SNU_2D_ProgrammingTools_IDE_Beef",
+    "created_at": "2023-06-22T00:09:10Z",
+    "updated_at": "2023-08-11T12:25:21Z",
+    "tags": []
+  },
+  {
+    "id": 261496299,
+    "name": "beef-utils",
+    "owner": "LauraRozier",
+    "description": null,
+    "url": "https://github.com/LauraRozier/beef-utils",
+    "created_at": "2020-05-05T14:34:22Z",
+    "updated_at": "2021-12-21T16:44:41Z",
+    "tags": []
+  },
+  {
+    "id": 561232419,
+    "name": "Bench",
+    "owner": "farism",
+    "description": "Simple Benchmarking for Beef Lang",
+    "url": "https://github.com/farism/Bench",
+    "created_at": "2022-11-03T08:43:42Z",
+    "updated_at": "2023-07-15T15:26:42Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 688714841,
+    "name": "AI2001_Category-Source_Code-SC-Beef",
+    "owner": "seanpm2001",
+    "description": "\ud83e\udde0\ufe0f\ud83d\udda5\ufe0f2\ufe0f\u20e3\ufe0f0\ufe0f\u20e3\ufe0f0\ufe0f\u20e3\ufe0f1\ufe0f\u20e3\ufe0f\ud83d\udcbe\ufe0f\ud83d\udcdc\ufe0f The sourceCode:Beef category for AI2001, containing Beef programming language datasets",
+    "url": "https://github.com/seanpm2001/AI2001_Category-Source_Code-SC-Beef",
+    "created_at": "2023-09-08T00:25:32Z",
+    "updated_at": "2023-09-08T22:57:30Z",
+    "tags": []
+  },
+  {
+    "id": 260570341,
+    "name": "BeefBrainfuck",
+    "owner": "Entrivax",
+    "description": "Brainfuck interpreter in Beef language",
+    "url": "https://github.com/Entrivax/BeefBrainfuck",
+    "created_at": "2020-05-01T22:27:02Z",
+    "updated_at": "2021-12-21T16:45:11Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 432808869,
+    "name": "FlappyCow",
+    "owner": "blat-blatnik",
+    "description": "A Flappy Bird clone written in Beef.",
+    "url": "https://github.com/blat-blatnik/FlappyCow",
+    "created_at": "2021-11-28T19:45:43Z",
+    "updated_at": "2025-05-09T12:56:10Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "v1.1",
+        "zipball_url": "https://api.github.com/repos/blat-blatnik/FlappyCow/zipball/refs/tags/v1.1",
+        "tarball_url": "https://api.github.com/repos/blat-blatnik/FlappyCow/tarball/refs/tags/v1.1",
+        "commit": {
+          "sha": "ae8320530ac3a3c50d5791bc634d7c7730093d8b",
+          "url": "https://api.github.com/repos/blat-blatnik/FlappyCow/commits/ae8320530ac3a3c50d5791bc634d7c7730093d8b"
+        },
+        "node_id": "REF_kwDOGcwjpa5yZWZzL3RhZ3MvdjEuMQ"
+      },
+      {
+        "name": "v1.0",
+        "zipball_url": "https://api.github.com/repos/blat-blatnik/FlappyCow/zipball/refs/tags/v1.0",
+        "tarball_url": "https://api.github.com/repos/blat-blatnik/FlappyCow/tarball/refs/tags/v1.0",
+        "commit": {
+          "sha": "2b614b88a87d65b037cc528450e5626e1a7ab969",
+          "url": "https://api.github.com/repos/blat-blatnik/FlappyCow/commits/2b614b88a87d65b037cc528450e5626e1a7ab969"
+        },
+        "node_id": "REF_kwDOGcwjpa5yZWZzL3RhZ3MvdjEuMA"
+      }
+    ]
+  },
+  {
+    "id": 290265637,
+    "name": "Ari2D-Tutorial",
+    "owner": "Ardexius",
+    "description": "Ariyana 2Dsystem Tutorial in Beef",
+    "url": "https://github.com/Ardexius/Ari2D-Tutorial",
+    "created_at": "2020-08-25T16:25:21Z",
+    "updated_at": "2021-12-21T16:45:16Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 625559733,
+    "name": "BFCalculator",
+    "owner": "CalculationCollective",
+    "description": null,
+    "url": "https://github.com/CalculationCollective/BFCalculator",
+    "created_at": "2023-04-09T13:47:38Z",
+    "updated_at": "2025-06-15T03:21:27Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 435203115,
+    "name": "Chef",
+    "owner": "Jonathan-Racaud",
+    "description": "A web framwork for the Beef programming language",
+    "url": "https://github.com/Jonathan-Racaud/Chef",
+    "created_at": "2021-12-05T15:21:02Z",
+    "updated_at": "2022-03-03T02:02:25Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 374472287,
+    "name": "System.ServiceProcess",
+    "owner": "LauraRozier",
+    "description": "BeefLang port of the .net System.ServiceProcess",
+    "url": "https://github.com/LauraRozier/System.ServiceProcess",
+    "created_at": "2021-06-06T22:01:21Z",
+    "updated_at": "2024-11-27T19:13:49Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 557745545,
+    "name": "Assert",
+    "owner": "farism",
+    "description": "Assertion library for Beef",
+    "url": "https://github.com/farism/Assert",
+    "created_at": "2022-10-26T08:16:07Z",
+    "updated_at": "2022-12-10T19:32:56Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 1290102980,
+    "name": "Char2D",
+    "owner": "EduLoboM",
+    "description": "A modular 2D game development engine built using the Beef language, featuring a documentation portal powered by Docusaurus. Its architecture separates the core logic (engine) from the application layer (game). The project supports CI/CD workflows and automated deployment via GitHub Actions.",
+    "url": "https://github.com/EduLoboM/Char2D",
+    "created_at": "2026-07-05T15:27:18Z",
+    "updated_at": "2026-07-30T12:35:02Z",
+    "tags": []
+  },
+  {
+    "id": 818666691,
+    "name": "beef-gamedev",
+    "owner": "maihd",
+    "description": "Libraries, frameworks, and guides for gamedev with Beef",
+    "url": "https://github.com/maihd/beef-gamedev",
+    "created_at": "2024-06-22T13:54:50Z",
+    "updated_at": "2025-12-13T23:36:02Z",
+    "tags": []
+  },
+  {
+    "id": 1238308760,
+    "name": "beefgame",
+    "owner": "5Stygian",
+    "description": null,
+    "url": "https://github.com/5Stygian/beefgame",
+    "created_at": "2026-05-14T02:22:24Z",
+    "updated_at": "2026-06-08T06:17:02Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 262593007,
+    "name": "BeefGrunio",
+    "owner": "Athlon007",
+    "description": "A Grunio\u017cerca Meta remake made in Beef.",
+    "url": "https://github.com/Athlon007/BeefGrunio",
+    "created_at": "2020-05-09T14:50:09Z",
+    "updated_at": "2023-06-22T11:52:00Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "1.0",
+        "zipball_url": "https://api.github.com/repos/Athlon007/BeefGrunio/zipball/refs/tags/1.0",
+        "tarball_url": "https://api.github.com/repos/Athlon007/BeefGrunio/tarball/refs/tags/1.0",
+        "commit": {
+          "sha": "15b84d5790e10d0c92c36ffe03462f482d9bfac3",
+          "url": "https://api.github.com/repos/Athlon007/BeefGrunio/commits/15b84d5790e10d0c92c36ffe03462f482d9bfac3"
+        },
+        "node_id": "MDM6UmVmMjYyNTkzMDA3OnJlZnMvdGFncy8xLjA="
+      }
+    ]
+  },
+  {
+    "id": 904583973,
+    "name": "Bliss_Browser_Beef",
+    "owner": "seanpm2001",
+    "description": "\ud83c\udf33\ufe0f\ud83c\udf10\ufe0f#\ufe0f\u20e3\ufe0f The Bliss Browser Beef language support module, allowing Beef programs to be written in and ran within the browser.",
+    "url": "https://github.com/seanpm2001/Bliss_Browser_Beef",
+    "created_at": "2024-12-17T07:09:59Z",
+    "updated_at": "2024-12-20T19:50:20Z",
+    "tags": []
+  },
+  {
+    "id": 263237210,
+    "name": "Ariyana_beef",
+    "owner": "kochol",
+    "description": "Ariyana game engine beef bindings",
+    "url": "https://github.com/kochol/Ariyana_beef",
+    "created_at": "2020-05-12T05:02:13Z",
+    "updated_at": "2023-01-28T13:15:32Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 1238077209,
+    "name": "Sample.Beef.Tetris",
+    "owner": "netpyoung",
+    "description": null,
+    "url": "https://github.com/netpyoung/Sample.Beef.Tetris",
+    "created_at": "2026-05-13T19:42:52Z",
+    "updated_at": "2026-05-16T02:21:05Z",
+    "tags": []
+  },
+  {
+    "id": 742697132,
+    "name": "beef-cli-hello-world",
+    "owner": "bearddan2000",
+    "description": "A POC for beef programming language.",
+    "url": "https://github.com/bearddan2000/beef-cli-hello-world",
+    "created_at": "2024-01-13T05:01:49Z",
+    "updated_at": "2024-01-13T05:01:54Z",
+    "tags": []
+  },
+  {
+    "id": 1411895265,
+    "name": "Sample.Beef.Nes",
+    "owner": "netpyoung",
+    "description": "NES(Nintendo Entertainment System) emulator written in beeflang",
+    "url": "https://github.com/netpyoung/Sample.Beef.Nes",
+    "created_at": "2026-10-09T13:30:27Z",
+    "updated_at": "2026-10-10T04:25:45Z",
+    "tags": []
+  },
+  {
+    "id": 1223983120,
+    "name": "Wasm4Beef",
+    "owner": "Zeon8",
+    "description": "Bindings to WASM-4 for Beef",
+    "url": "https://github.com/Zeon8/Wasm4Beef",
+    "created_at": "2026-04-28T21:05:22Z",
+    "updated_at": "2026-08-29T18:49:50Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "0.1.0",
+        "zipball_url": "https://api.github.com/repos/Zeon8/Wasm4Beef/zipball/refs/tags/0.1.0",
+        "tarball_url": "https://api.github.com/repos/Zeon8/Wasm4Beef/tarball/refs/tags/0.1.0",
+        "commit": {
+          "sha": "9b65923378b49936b8b32d64478af75385b811af",
+          "url": "https://api.github.com/repos/Zeon8/Wasm4Beef/commits/9b65923378b49936b8b32d64478af75385b811af"
+        },
+        "node_id": "REF_kwDOSPSAEK9yZWZzL3RhZ3MvMC4xLjA"
+      }
+    ]
+  },
+  {
+    "id": 1411003255,
+    "name": "Sample.Beef.Chip8",
+    "owner": "netpyoung",
+    "description": "CHIP-8 emulator written in beeflang",
+    "url": "https://github.com/netpyoung/Sample.Beef.Chip8",
+    "created_at": "2026-10-08T22:09:10Z",
+    "updated_at": "2026-10-10T05:26:48Z",
+    "tags": []
+  },
+  {
+    "id": 203406425,
+    "name": "Beef",
+    "owner": "beefytech",
+    "description": "Beef Programming Language",
+    "url": "https://github.com/beefytech/Beef",
+    "created_at": "2019-08-20T15:43:32Z",
+    "updated_at": "2026-10-10T01:02:51Z",
+    "tags": [
+      {
+        "name": "0.43.5",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.43.5",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.43.5",
+        "commit": {
+          "sha": "cf27fffade52b57dbde94a751e1c4edbcec286d3",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/cf27fffade52b57dbde94a751e1c4edbcec286d3"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQzLjU="
+      },
+      {
+        "name": "0.43.4",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.43.4",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.43.4",
+        "commit": {
+          "sha": "5490af46903312351aa7b5087736893dbb561d98",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/5490af46903312351aa7b5087736893dbb561d98"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQzLjQ="
+      },
+      {
+        "name": "0.43.3",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.43.3",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.43.3",
+        "commit": {
+          "sha": "48571d374fb68d853a0d930175e48d19caf50c9c",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/48571d374fb68d853a0d930175e48d19caf50c9c"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQzLjM="
+      },
+      {
+        "name": "0.43.2",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.43.2",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.43.2",
+        "commit": {
+          "sha": "0d7a7e98e4bc628f5fa157dd244e2b81e4d48560",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/0d7a7e98e4bc628f5fa157dd244e2b81e4d48560"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQzLjI="
+      },
+      {
+        "name": "0.43.1",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.43.1",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.43.1",
+        "commit": {
+          "sha": "dc57db202d37a6a1ffa5eee5fed08532f31fa94f",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/dc57db202d37a6a1ffa5eee5fed08532f31fa94f"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQzLjE="
+      },
+      {
+        "name": "0.43.0",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.43.0",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.43.0",
+        "commit": {
+          "sha": "59d4e258d5dd71a0cbcfd43cc223ef75fdb71f02",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/59d4e258d5dd71a0cbcfd43cc223ef75fdb71f02"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQzLjA="
+      },
+      {
+        "name": "0.42.8",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.42.8",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.42.8",
+        "commit": {
+          "sha": "3c45db19762b14da99fd14c03f4406bec01060f9",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/3c45db19762b14da99fd14c03f4406bec01060f9"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQyLjg="
+      },
+      {
+        "name": "0.42.7",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.42.7",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.42.7",
+        "commit": {
+          "sha": "a80410786d478f36d18b312e95589c4ece7cca4f",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/a80410786d478f36d18b312e95589c4ece7cca4f"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQyLjc="
+      },
+      {
+        "name": "0.42.6",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.42.6",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.42.6",
+        "commit": {
+          "sha": "c34e6fe66a082167f8dceeed0a0635ca9078d554",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/c34e6fe66a082167f8dceeed0a0635ca9078d554"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQyLjY="
+      },
+      {
+        "name": "0.42.5",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.42.5",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.42.5",
+        "commit": {
+          "sha": "92e189826b29603fb6f3a689c9c40f058e55d981",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/92e189826b29603fb6f3a689c9c40f058e55d981"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQyLjU="
+      },
+      {
+        "name": "0.42.4",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.42.4",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.42.4",
+        "commit": {
+          "sha": "cce45dbc15011c2e8fc24703f2e7205774c85532",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/cce45dbc15011c2e8fc24703f2e7205774c85532"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQyLjQ="
+      },
+      {
+        "name": "0.42.3",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.42.3",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.42.3",
+        "commit": {
+          "sha": "82ca79947062fc098422ceba72aef5f0710c3dc2",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/82ca79947062fc098422ceba72aef5f0710c3dc2"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQyLjM="
+      },
+      {
+        "name": "0.42.2",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.42.2",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.42.2",
+        "commit": {
+          "sha": "905330ce12cd1f1cb9435463d8ab08c06d6d2451",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/905330ce12cd1f1cb9435463d8ab08c06d6d2451"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQyLjI="
+      },
+      {
+        "name": "0.42.1",
+        "zipball_url": "https://api.github.com/repos/beefytech/Beef/zipball/refs/tags/0.42.1",
+        "tarball_url": "https://api.github.com/repos/beefytech/Beef/tarball/refs/tags/0.42.1",
+        "commit": {
+          "sha": "c2ee40181288ee486b179098e62da3494b49ee65",
+          "url": "https://api.github.com/repos/beefytech/Beef/commits/c2ee40181288ee486b179098e62da3494b49ee65"
+        },
+        "node_id": "MDM6UmVmMjAzNDA2NDI1OnJlZnMvdGFncy8wLjQyLjE="
+      }
+    ]
+  },
+  {
+    "id": 259757148,
+    "name": "raylib-beef",
+    "owner": "M0n7y5",
+    "description": "A raylib binding for Beef programming language",
+    "url": "https://github.com/M0n7y5/raylib-beef",
+    "created_at": "2020-04-28T21:37:29Z",
+    "updated_at": "2026-04-21T11:29:48Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "0.3.1",
+        "zipball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/zipball/refs/tags/0.3.1",
+        "tarball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/tarball/refs/tags/0.3.1",
+        "commit": {
+          "sha": "28f0d5c53d0834da13e719dc83da86856acb0bb5",
+          "url": "https://api.github.com/repos/M0n7y5/raylib-beef/commits/28f0d5c53d0834da13e719dc83da86856acb0bb5"
+        },
+        "node_id": "MDM6UmVmMjU5NzU3MTQ4OnJlZnMvdGFncy8wLjMuMQ=="
+      },
+      {
+        "name": "0.3.0",
+        "zipball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/zipball/refs/tags/0.3.0",
+        "tarball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/tarball/refs/tags/0.3.0",
+        "commit": {
+          "sha": "bbc6dac86fe6623df749bfb94f379bd6127e43ed",
+          "url": "https://api.github.com/repos/M0n7y5/raylib-beef/commits/bbc6dac86fe6623df749bfb94f379bd6127e43ed"
+        },
+        "node_id": "MDM6UmVmMjU5NzU3MTQ4OnJlZnMvdGFncy8wLjMuMA=="
+      },
+      {
+        "name": "0.2.4",
+        "zipball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/zipball/refs/tags/0.2.4",
+        "tarball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/tarball/refs/tags/0.2.4",
+        "commit": {
+          "sha": "83cacd56ac90f86ef3dbf51df0e757cf53510c16",
+          "url": "https://api.github.com/repos/M0n7y5/raylib-beef/commits/83cacd56ac90f86ef3dbf51df0e757cf53510c16"
+        },
+        "node_id": "MDM6UmVmMjU5NzU3MTQ4OnJlZnMvdGFncy8wLjIuNA=="
+      },
+      {
+        "name": "0.2.3",
+        "zipball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/zipball/refs/tags/0.2.3",
+        "tarball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/tarball/refs/tags/0.2.3",
+        "commit": {
+          "sha": "2459050d1adc81440b0f3fcb617925a9e8f191c3",
+          "url": "https://api.github.com/repos/M0n7y5/raylib-beef/commits/2459050d1adc81440b0f3fcb617925a9e8f191c3"
+        },
+        "node_id": "MDM6UmVmMjU5NzU3MTQ4OnJlZnMvdGFncy8wLjIuMw=="
+      },
+      {
+        "name": "0.2.2",
+        "zipball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/zipball/refs/tags/0.2.2",
+        "tarball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/tarball/refs/tags/0.2.2",
+        "commit": {
+          "sha": "061322d5d475b3111ad87c278a869e04f8669a9d",
+          "url": "https://api.github.com/repos/M0n7y5/raylib-beef/commits/061322d5d475b3111ad87c278a869e04f8669a9d"
+        },
+        "node_id": "MDM6UmVmMjU5NzU3MTQ4OnJlZnMvdGFncy8wLjIuMg=="
+      },
+      {
+        "name": "0.2.1",
+        "zipball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/zipball/refs/tags/0.2.1",
+        "tarball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/tarball/refs/tags/0.2.1",
+        "commit": {
+          "sha": "0fe15bcb664ac3e58a1369a75fbe1d518d4ee9be",
+          "url": "https://api.github.com/repos/M0n7y5/raylib-beef/commits/0fe15bcb664ac3e58a1369a75fbe1d518d4ee9be"
+        },
+        "node_id": "MDM6UmVmMjU5NzU3MTQ4OnJlZnMvdGFncy8wLjIuMQ=="
+      },
+      {
+        "name": "0.2.0",
+        "zipball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/zipball/refs/tags/0.2.0",
+        "tarball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/tarball/refs/tags/0.2.0",
+        "commit": {
+          "sha": "a65f6f5db9e33c8e7df9e6cc8f057a8567548776",
+          "url": "https://api.github.com/repos/M0n7y5/raylib-beef/commits/a65f6f5db9e33c8e7df9e6cc8f057a8567548776"
+        },
+        "node_id": "MDM6UmVmMjU5NzU3MTQ4OnJlZnMvdGFncy8wLjIuMA=="
+      },
+      {
+        "name": "0.1.0",
+        "zipball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/zipball/refs/tags/0.1.0",
+        "tarball_url": "https://api.github.com/repos/M0n7y5/raylib-beef/tarball/refs/tags/0.1.0",
+        "commit": {
+          "sha": "e75ed676461f35595241c8a0052515b55d420101",
+          "url": "https://api.github.com/repos/M0n7y5/raylib-beef/commits/e75ed676461f35595241c8a0052515b55d420101"
+        },
+        "node_id": "MDM6UmVmMjU5NzU3MTQ4OnJlZnMvdGFncy8wLjEuMA=="
+      }
+    ]
+  },
+  {
+    "id": 285389433,
+    "name": "Pile",
+    "owner": "EinScott",
+    "description": "A friendly, extendable game framework for the Beef programming language.",
+    "url": "https://github.com/EinScott/Pile",
+    "created_at": "2020-08-05T19:49:16Z",
+    "updated_at": "2026-07-15T15:01:20Z",
+    "tags": []
+  },
+  {
+    "id": 616135603,
+    "name": "raylib-beef",
+    "owner": "Starpelly",
+    "description": "Autogenerated Beef bindings for raylib",
+    "url": "https://github.com/Starpelly/raylib-beef",
+    "created_at": "2023-03-19T17:57:45Z",
+    "updated_at": "2026-10-07T00:31:54Z",
+    "tags": [
+      {
+        "name": "v6.0.0",
+        "zipball_url": "https://api.github.com/repos/Starpelly/raylib-beef/zipball/refs/tags/v6.0.0",
+        "tarball_url": "https://api.github.com/repos/Starpelly/raylib-beef/tarball/refs/tags/v6.0.0",
+        "commit": {
+          "sha": "6863e9188700cddefce58c8d9e1b9c3d8abc55ae",
+          "url": "https://api.github.com/repos/Starpelly/raylib-beef/commits/6863e9188700cddefce58c8d9e1b9c3d8abc55ae"
+        },
+        "node_id": "REF_kwDOJLl7s7ByZWZzL3RhZ3MvdjYuMC4w"
+      },
+      {
+        "name": "v1.0.0",
+        "zipball_url": "https://api.github.com/repos/Starpelly/raylib-beef/zipball/refs/tags/v1.0.0",
+        "tarball_url": "https://api.github.com/repos/Starpelly/raylib-beef/tarball/refs/tags/v1.0.0",
+        "commit": {
+          "sha": "2c634b8d92c7bb81b4ececaf725e4be8e7ef691d",
+          "url": "https://api.github.com/repos/Starpelly/raylib-beef/commits/2c634b8d92c7bb81b4ececaf725e4be8e7ef691d"
+        },
+        "node_id": "REF_kwDOJLl7s7ByZWZzL3RhZ3MvdjEuMC4w"
+      },
+      {
+        "name": "5.5",
+        "zipball_url": "https://api.github.com/repos/Starpelly/raylib-beef/zipball/refs/tags/5.5",
+        "tarball_url": "https://api.github.com/repos/Starpelly/raylib-beef/tarball/refs/tags/5.5",
+        "commit": {
+          "sha": "6e604a801be49c90bf06b3a9923e32e0edf62b18",
+          "url": "https://api.github.com/repos/Starpelly/raylib-beef/commits/6e604a801be49c90bf06b3a9923e32e0edf62b18"
+        },
+        "node_id": "REF_kwDOJLl7s61yZWZzL3RhZ3MvNS41"
+      }
+    ]
+  },
+  {
+    "id": 270904795,
+    "name": "BNA",
+    "owner": "GlaireDaggers",
+    "description": "A minimal game framework inspired by XNA for the Beef programming language",
+    "url": "https://github.com/GlaireDaggers/BNA",
+    "created_at": "2020-06-09T04:45:51Z",
+    "updated_at": "2025-11-30T04:13:46Z",
+    "tags": []
+  },
+  {
+    "id": 442872742,
+    "name": "bon",
+    "owner": "EinScott",
+    "description": "A serialization library for the Beef programming language. Designed to easily serialize and deserialize data structures.",
+    "url": "https://github.com/EinScott/bon",
+    "created_at": "2021-12-29T19:37:21Z",
+    "updated_at": "2026-07-09T05:32:12Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 261377006,
+    "name": "BeefSFML",
+    "owner": "MineGame159",
+    "description": "SFML wrapper for the Beef programming language",
+    "url": "https://github.com/MineGame159/BeefSFML",
+    "created_at": "2020-05-05T06:18:57Z",
+    "updated_at": "2026-01-05T00:00:51Z",
+    "tags": []
+  },
+  {
+    "id": 268220988,
+    "name": "Beef-Toml",
+    "owner": "GlaireDaggers",
+    "description": "A simple TOML serializer/deserializer for Beef",
+    "url": "https://github.com/GlaireDaggers/Beef-Toml",
+    "created_at": "2020-05-31T06:16:10Z",
+    "updated_at": "2022-05-11T03:01:01Z",
+    "tags": []
+  },
+  {
+    "id": 342204555,
+    "name": "sokol-beef",
+    "owner": "kochol",
+    "description": "Beef binding for sokol headers",
+    "url": "https://github.com/kochol/sokol-beef",
+    "created_at": "2021-02-25T10:19:45Z",
+    "updated_at": "2026-07-09T05:32:28Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 288722160,
+    "name": "MsgPackBf",
+    "owner": "NicEastvillage",
+    "description": "A MsgPack library in BeefLang.",
+    "url": "https://github.com/NicEastvillage/MsgPackBf",
+    "created_at": "2020-08-19T12:11:05Z",
+    "updated_at": "2021-12-21T16:43:37Z",
+    "tags": []
+  },
+  {
+    "id": 579144999,
+    "name": "Collagen",
+    "owner": "zerkawei",
+    "description": "Generating C APIs at compile time for Beef projects",
+    "url": "https://github.com/zerkawei/Collagen",
+    "created_at": "2022-12-16T19:21:39Z",
+    "updated_at": "2026-07-09T05:32:19Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 420464241,
+    "name": "stb_beef",
+    "owner": "EinScott",
+    "description": "stb single-file public domain libraries ported to BeefLang (WIP)",
+    "url": "https://github.com/EinScott/stb_beef",
+    "created_at": "2021-10-23T16:26:15Z",
+    "updated_at": "2023-04-01T18:01:14Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 308128989,
+    "name": "Beef-Hash",
+    "owner": "LauraRozier",
+    "description": "BeefLang hash library, containing multiple hashing algorithms",
+    "url": "https://github.com/LauraRozier/Beef-Hash",
+    "created_at": "2020-10-28T20:08:26Z",
+    "updated_at": "2026-07-09T05:32:39Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 539640226,
+    "name": "json",
+    "owner": "EinScott",
+    "description": "An arbitrary JSON tree reader and writer for BeefLang.",
+    "url": "https://github.com/EinScott/json",
+    "created_at": "2022-09-21T18:52:20Z",
+    "updated_at": "2025-12-27T16:55:12Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 261646668,
+    "name": "raylib-beef-spacegame",
+    "owner": "borkin8r",
+    "description": "A raylib-beef conversion of the SpaceGame example program that comes with the Beef Language/IDE",
+    "url": "https://github.com/borkin8r/raylib-beef-spacegame",
+    "created_at": "2020-05-06T03:54:28Z",
+    "updated_at": "2021-12-21T16:44:14Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 429950010,
+    "name": "BeefFNT",
+    "owner": "disarray2077",
+    "description": "A Beef library for reading and writing AngelCode bitmap fonts in binary, XML, and text.",
+    "url": "https://github.com/disarray2077/BeefFNT",
+    "created_at": "2021-11-19T22:25:26Z",
+    "updated_at": "2024-05-26T12:02:07Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "2021.11.23",
+        "zipball_url": "https://api.github.com/repos/disarray2077/BeefFNT/zipball/refs/tags/2021.11.23",
+        "tarball_url": "https://api.github.com/repos/disarray2077/BeefFNT/tarball/refs/tags/2021.11.23",
+        "commit": {
+          "sha": "311a7f6ccf90eac5a11013168160c91151062ff4",
+          "url": "https://api.github.com/repos/disarray2077/BeefFNT/commits/311a7f6ccf90eac5a11013168160c91151062ff4"
+        },
+        "node_id": "REF_kwDOGaCEOrRyZWZzL3RhZ3MvMjAyMS4xMS4yMw"
+      }
+    ]
+  },
+  {
+    "id": 431970314,
+    "name": "KeraLua-Beef",
+    "owner": "disarray2077",
+    "description": "Native bindings of Lua 5.4 for BeefLang",
+    "url": "https://github.com/disarray2077/KeraLua-Beef",
+    "created_at": "2021-11-25T20:33:52Z",
+    "updated_at": "2026-09-27T15:10:41Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 474404840,
+    "name": "BeefBass",
+    "owner": "disarray2077",
+    "description": "Beef Wrapper for 'Bass' Audio Library",
+    "url": "https://github.com/disarray2077/BeefBass",
+    "created_at": "2022-03-26T16:33:20Z",
+    "updated_at": "2025-12-09T01:12:18Z",
+    "beef_package_manager_compatible": true,
+    "tags": [
+      {
+        "name": "1.0",
+        "zipball_url": "https://api.github.com/repos/disarray2077/BeefBass/zipball/refs/tags/1.0",
+        "tarball_url": "https://api.github.com/repos/disarray2077/BeefBass/tarball/refs/tags/1.0",
+        "commit": {
+          "sha": "b06b3ce2f0310dec2e45f0fed1c568d9cfe9c209",
+          "url": "https://api.github.com/repos/disarray2077/BeefBass/commits/b06b3ce2f0310dec2e45f0fed1c568d9cfe9c209"
+        },
+        "node_id": "REF_kwDOHEbX6K1yZWZzL3RhZ3MvMS4w"
+      }
+    ]
+  },
+  {
+    "id": 730381348,
+    "name": "AdventOfCodeBeef",
+    "owner": "ShootMe",
+    "description": "Advent Of Code solutions in the Beef programming language",
+    "url": "https://github.com/ShootMe/AdventOfCodeBeef",
+    "created_at": "2023-12-11T19:57:27Z",
+    "updated_at": "2024-12-23T21:43:26Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 343214141,
+    "name": "necrocard",
+    "owner": "EinScott",
+    "description": "A simple game made with Pile.",
+    "url": "https://github.com/EinScott/necrocard",
+    "created_at": "2021-02-28T21:02:53Z",
+    "updated_at": "2022-07-03T13:15:25Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 803366852,
+    "name": "Oregano",
+    "owner": "zerkawei",
+    "description": "Regex engine for the Beef programming language",
+    "url": "https://github.com/zerkawei/Oregano",
+    "created_at": "2024-05-20T15:30:55Z",
+    "updated_at": "2026-10-07T00:28:19Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 801288820,
+    "name": "BeefGL",
+    "owner": "disarray2077",
+    "description": "BeefGL is a BeefLang wrapper for OpenGL. It also includes a math library. It's a direct port of OpenTK, but only includes the OpenGL part of it.",
+    "url": "https://github.com/disarray2077/BeefGL",
+    "created_at": "2024-05-16T00:16:22Z",
+    "updated_at": "2025-08-21T00:08:06Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 1155538528,
+    "name": "Beefcord",
+    "owner": "stavratum",
+    "description": "an unfinished discord framework",
+    "url": "https://github.com/stavratum/Beefcord",
+    "created_at": "2026-02-11T16:16:01Z",
+    "updated_at": "2026-06-01T13:34:07Z",
+    "tags": []
+  }
+]

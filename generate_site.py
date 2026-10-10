@@ -377,7 +377,7 @@ def generate(data: dict) -> str:
 
 def main() -> None:
     script_dir = Path(__file__).resolve().parent
-    data_path = script_dir / "data.json"
+    data_path = script_dir / "curated.json"
     site_dir = script_dir / "site"
     index_path = site_dir / "index.html"
 

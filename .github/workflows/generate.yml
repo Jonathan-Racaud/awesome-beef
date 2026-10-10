@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'data.json'
+      - 'curated.json'
   workflow_dispatch:
 
 permissions:

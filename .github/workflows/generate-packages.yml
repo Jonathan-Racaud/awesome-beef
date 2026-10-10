@@ -1,0 +1,38 @@
+name: Generate packages.json
+
+on:
+  schedule:
+    # Every Monday at 03:00 UTC
+    - cron: '0 3 * * 1'
+  workflow_dispatch:  # allow manual runs from the Actions tab
+
+permissions:
+  contents: write  # needed to push packages.json
+
+concurrency:
+  group: generate-packages
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run generate_packages.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python generate_packages.py
+
+      - name: Commit and push packages.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet packages.json; then
+            echo "No changes to packages.json"
+          else
+            git add packages.json
+            git commit -m "Update packages.json [skip ci]"
+            git push
+          fi
