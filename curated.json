@@ -1,5 +1,5 @@
 {
-  "$schema": "data.schema.json",
+  "$schema": "curated.schema.json",
   "metadata": {
     "title": "Awesome Beef",
     "description": "A curated list of awesome Beef frameworks, libraries and resources.",

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/awesome-beef/data.schema.json",
+  "$id": "https://example.com/awesome-beef/curated.schema.json",
   "title": "Awesome Beef curated list",
   "description": "Single source of truth for the Awesome Beef curated list. Flat list with parent references, consumed by the README generator and the static website.",
   "type": "object",
