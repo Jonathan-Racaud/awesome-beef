@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'data.json'
+      - 'curated.json'
       - 'generate_site.py'
       - 'site/**'
   workflow_dispatch:
