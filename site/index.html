@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Awesome Beef</title>
+  <meta name="description" content="A curated list of awesome Beef frameworks, libraries and resources.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="page-surface">
+    <div class="ambient-bg" aria-hidden="true"></div>
+    <div class="top-glow" aria-hidden="true"></div>
+    <header class="site-header">
+      <button type="button" id="nav-toggle" class="nav-toggle"
+              aria-controls="sidebar" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <a class="site-title" href="#content">Awesome Beef</a>
+    </header>
+    <div class="layout">
+      <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <div class="sidebar-card">
+          <div class="sidebar-brand">
+            <div class="sidebar-title">Awesome Beef</div>
+            <p class="sidebar-description">A curated list of awesome Beef frameworks, libraries and resources.</p>
+          </div>
+          <h2 class="toc-heading">Contents</h2>
+<ul class="toc">
+<li class="toc-item depth-0">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#official-resources">Official Resources</a>
+  </div>
+</li>
+<li class="toc-item depth-0">
+  <div class="toc-row">
+    <button type="button" class="toc-toggle" aria-expanded="true" aria-controls="toc-tools" aria-label="Toggle Tools section"><span class="chevron" aria-hidden="true">&#9662;</span></button>
+    <a class="toc-title" href="#tools">Tools</a>
+  </div>
+  <ul class="toc-sublist" id="toc-tools">
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#lsp">LSP</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#editors">Editors</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#binding-generators">Binding Generators</a>
+  </div>
+</li>
+  </ul>
+</li>
+<li class="toc-item depth-0">
+  <div class="toc-row">
+    <button type="button" class="toc-toggle" aria-expanded="true" aria-controls="toc-frameworks-and-libraries" aria-label="Toggle Frameworks and Libraries section"><span class="chevron" aria-hidden="true">&#9662;</span></button>
+    <a class="toc-title" href="#frameworks-and-libraries">Frameworks and Libraries</a>
+  </div>
+  <ul class="toc-sublist" id="toc-frameworks-and-libraries">
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <button type="button" class="toc-toggle" aria-expanded="true" aria-controls="toc-algorithms" aria-label="Toggle Algorithms section"><span class="chevron" aria-hidden="true">&#9662;</span></button>
+    <a class="toc-title" href="#algorithms">Algorithms</a>
+  </div>
+  <ul class="toc-sublist" id="toc-algorithms">
+<li class="toc-item depth-2">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#colors">Colors</a>
+  </div>
+</li>
+<li class="toc-item depth-2">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#cryptography-and-hashing">Cryptography and Hashing</a>
+  </div>
+</li>
+<li class="toc-item depth-2">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#noise">Noise</a>
+  </div>
+</li>
+  </ul>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#audio">Audio</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#caching">Caching</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#cli">Command Line Interface Development</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#coroutines">Coroutines</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <button type="button" class="toc-toggle" aria-expanded="true" aria-controls="toc-game-development" aria-label="Toggle Game Development section"><span class="chevron" aria-hidden="true">&#9662;</span></button>
+    <a class="toc-title" href="#game-development">Game Development</a>
+  </div>
+  <ul class="toc-sublist" id="toc-game-development">
+<li class="toc-item depth-2">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#engines">Engines</a>
+  </div>
+</li>
+<li class="toc-item depth-2">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#game-frameworks">Frameworks</a>
+  </div>
+</li>
+<li class="toc-item depth-2">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#game-libraries">Libraries</a>
+  </div>
+</li>
+  </ul>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#font">Font</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <button type="button" class="toc-toggle" aria-expanded="true" aria-controls="toc-gui" aria-label="Toggle GUI section"><span class="chevron" aria-hidden="true">&#9662;</span></button>
+    <a class="toc-title" href="#gui">GUI</a>
+  </div>
+  <ul class="toc-sublist" id="toc-gui">
+<li class="toc-item depth-2">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#imgui">ImGui</a>
+  </div>
+</li>
+  </ul>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#ioc">IoC</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#image">Image</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#interoperability">Interoperability</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#linq">Linq</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#logging">Logging</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#multimedia">Multimedia</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#networking">Networking</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#scripting-engines">Scripting Engines</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#serialization">Serialization</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#themes">Themes</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#text-processing">Text Processing</a>
+  </div>
+</li>
+  </ul>
+</li>
+<li class="toc-item depth-0">
+  <div class="toc-row">
+    <button type="button" class="toc-toggle" aria-expanded="true" aria-controls="toc-projects-and-articles" aria-label="Toggle Projects and Articles section"><span class="chevron" aria-hidden="true">&#9662;</span></button>
+    <a class="toc-title" href="#projects-and-articles">Projects and Articles</a>
+  </div>
+  <ul class="toc-sublist" id="toc-projects-and-articles">
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#dynamic-linking">Dynamic Linking</a>
+  </div>
+</li>
+<li class="toc-item depth-1">
+  <div class="toc-row">
+    <span class="toc-toggle toc-toggle--ghost" aria-hidden="true"><span class="chevron">&#9662;</span></span>
+    <a class="toc-title" href="#projects-networking">Networking</a>
+  </div>
+</li>
+  </ul>
+</li>
+</ul>
+        </div>
+      </nav>
+      <main id="content" class="content">
+        <header class="page-header">
+          <h1 class="page-title">Awesome Beef</h1>
+          <p class="page-description">A curated list of awesome Beef frameworks, libraries and resources.</p>
+          <div class="page-meta">
+            <a class="badge-chip" href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener noreferrer">Awesome</a>
+            <span>Inspired by <a href="https://github.com/vinta/awesome-python" target="_blank" rel="noopener noreferrer">awesome-python</a></span>
+          </div>
+        </header>
+
+<section id="official-resources" class="category depth-0">
+  <h2 class="section-title"><span class="marker">##</span> Official Resources</h2>
+  <p class="category-description">The official documentation and resource for the Beef programming language.</p>
+  <div class="cards">
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://beeflang.org" target="_blank" rel="noopener noreferrer">Official website</a></h4>
+      <p class="card-description">Official website of the Beef programming language.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://beeflang.org" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">beeflang.org</span></a>
+        <ul class="tags"><li class="tag">official</li><li class="tag">website</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://beeflang.org/docs" target="_blank" rel="noopener noreferrer">Official documentation</a></h4>
+      <p class="card-description">Official documentation explaining how the language works and its philosophy.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://beeflang.org/docs" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">beeflang.org/docs</span></a>
+        <ul class="tags"><li class="tag">official</li><li class="tag">documentation</li></ul>
+      </div>
+    </article>
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://www.beeflang.org/docs/doxygen/corlib/html/index.html" target="_blank" rel="noopener noreferrer">Corelib documentation</a></h4>
+      <p class="card-description">Auto generated documentation for the core library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://www.beeflang.org/docs/doxygen/corlib/html/index.html" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">beeflang.org/docs/doxygen/corlib/html/index.html</span></a>
+        <ul class="tags"><li class="tag">official</li><li class="tag">documentation</li><li class="tag">corelib</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/beefytech/Beef" target="_blank" rel="noopener noreferrer">Official repository</a></h4>
+      <p class="card-description">Repository hosting the language and its associated IDE.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/beefytech/Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/beefytech/Beef</span></a>
+        <ul class="tags"><li class="tag">official</li><li class="tag">source</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="tools" class="category depth-0">
+  <h2 class="section-title"><span class="marker">##</span> Tools</h2>
+
+<section id="lsp" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> LSP</h3>
+  <div class="cards">
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/MineGame159/Beef/tree/lsp/BeefLsp" target="_blank" rel="noopener noreferrer">Beef LSP</a></h4>
+      <p class="card-description">An unofficial LSP server which works with any LSP-compatible editor and a Visual Studio Code extension.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/MineGame159/Beef/tree/lsp/BeefLsp" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/MineGame159/Beef/tree/lsp/BeefLsp</span></a>
+        <ul class="tags"><li class="tag">lsp</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="editors" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Editors</h3>
+  <div class="cards">
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://trybeef.netlify.app/" target="_blank" rel="noopener noreferrer">Try Beef</a></h4>
+      <p class="card-description">A web based editor for compiling and running simple Beef programs.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://trybeef.netlify.app/" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">trybeef.netlify.app</span></a>
+        <ul class="tags"><li class="tag">editor</li><li class="tag">web</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="binding-generators" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Binding Generators</h3>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://git.unicon-gmbh.de/Rune/Cpp2Beef" target="_blank" rel="noopener noreferrer">Cpp2Beef</a></h4>
+      <p class="card-description">Beef Binding Generator for C and C-Style C++.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://git.unicon-gmbh.de/Rune/Cpp2Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">git.unicon-gmbh.de/Rune/Cpp2Beef</span></a>
+        <ul class="tags"><li class="tag">bindings</li><li class="tag">codegen</li><li class="tag">c</li><li class="tag">cpp</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+</section>
+
+<section id="frameworks-and-libraries" class="category depth-0">
+  <h2 class="section-title"><span class="marker">##</span> Frameworks and Libraries</h2>
+
+<section id="algorithms" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Algorithms</h3>
+  <p class="category-description">Libraries providing implementations of algorithms</p>
+
+<section id="colors" class="category depth-2">
+  <h4 class="section-title"><span class="marker">####</span> Colors</h4>
+  <div class="cards">
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/farism/RGBeef" target="_blank" rel="noopener noreferrer">RGBeef</a></h4>
+      <p class="card-description">Create, convert, and manipulate color spaces.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/farism/RGBeef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/farism/RGBeef</span></a>
+        <ul class="tags"><li class="tag">color</li><li class="tag">graphics</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="cryptography-and-hashing" class="category depth-2">
+  <h4 class="section-title"><span class="marker">####</span> Cryptography and Hashing</h4>
+  <div class="cards">
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/thibmo/Beef-Hash" target="_blank" rel="noopener noreferrer">Beef-Hash</a></h4>
+      <p class="card-description">Collection of hashing algorithms.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/thibmo/Beef-Hash" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/thibmo/Beef-Hash</span></a>
+        <ul class="tags"><li class="tag">hashing</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/thibmo/Beef-OpenSSL" target="_blank" rel="noopener noreferrer">Beef-OpenSSL</a></h4>
+      <p class="card-description">Beef port of OpenSSL.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/thibmo/Beef-OpenSSL" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/thibmo/Beef-OpenSSL</span></a>
+        <ul class="tags"><li class="tag">cryptography</li><li class="tag">openssl</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="noise" class="category depth-2">
+  <h4 class="section-title"><span class="marker">####</span> Noise</h4>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/EinScott/FastNoise_Beef" target="_blank" rel="noopener noreferrer">FastNoise_Beef</a></h4>
+      <p class="card-description">Beef port of the FastNoise Lite library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/EinScott/FastNoise_Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/EinScott/FastNoise_Beef</span></a>
+        <ul class="tags"><li class="tag">noise</li><li class="tag">procedural-generation</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+</section>
+
+<section id="audio" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Audio</h3>
+  <div class="cards">
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/LauraRozier/Beef-FMOD" target="_blank" rel="noopener noreferrer">Beef-FMOD</a></h4>
+      <p class="card-description">Beef bindings for the FMOD audio processing library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/LauraRozier/Beef-FMOD" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/LauraRozier/Beef-FMOD</span></a>
+        <ul class="tags"><li class="tag">audio</li><li class="tag">bindings</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/disarray2077/BeefBass" target="_blank" rel="noopener noreferrer">BeefBass</a></h4>
+      <p class="card-description">Beef Wrapper for the &#x27;Bass&#x27; Audio Library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/disarray2077/BeefBass" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/disarray2077/BeefBass</span></a>
+        <ul class="tags"><li class="tag">audio</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="caching" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Caching</h3>
+  <div class="cards">
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/thibmo/System.Caching" target="_blank" rel="noopener noreferrer">System.Caching</a></h4>
+      <p class="card-description">A BeefLang implementation of .net System.Runtime.Caching, useful to prevent double-triggering, response caching, data caching, etc.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/thibmo/System.Caching" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/thibmo/System.Caching</span></a>
+        <ul class="tags"><li class="tag">caching</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="cli" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Command Line Interface Development</h3>
+  <p class="category-description">Libraries for building CLI applications</p>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/RogueMacro/CowieCLI" target="_blank" rel="noopener noreferrer">CowieCLI</a></h4>
+      <p class="card-description">Awesome command line arguments parsing library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/RogueMacro/CowieCLI" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/RogueMacro/CowieCLI</span></a>
+        <ul class="tags"><li class="tag">cli</li><li class="tag">command-line</li><li class="tag">parsing</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="coroutines" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Coroutines</h3>
+  <p class="category-description">Libraries related to coroutines and multithread programming</p>
+  <div class="cards">
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/jazzbre/minicoro-beef" target="_blank" rel="noopener noreferrer">Minicoro-beef</a></h4>
+      <p class="card-description">Wrapper for the C asymetric coroutines library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jazzbre/minicoro-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jazzbre/minicoro-beef</span></a>
+        <ul class="tags"><li class="tag">coroutines</li><li class="tag">concurrency</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="game-development" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Game Development</h3>
+  <p class="category-description">Awesome game development libraries and frameworks.</p>
+
+<section id="engines" class="category depth-2">
+  <h4 class="section-title"><span class="marker">####</span> Engines</h4>
+  <div class="cards">
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/MattThorson/Strawberry" target="_blank" rel="noopener noreferrer">Strawberry</a></h4>
+      <p class="card-description">A 2D game engine using SDL, focused on usability and simplicity.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/MattThorson/Strawberry" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/MattThorson/Strawberry</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">engine</li><li class="tag">sdl</li><li class="tag">2d</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/rootbeerking/Tilengine-Beef" target="_blank" rel="noopener noreferrer">Tilengine-beef</a></h4>
+      <p class="card-description">Beef Language wrapper for Tilengine 2D Graphics Engine.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/rootbeerking/Tilengine-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/rootbeerking/Tilengine-Beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">engine</li><li class="tag">graphics</li><li class="tag">2d</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="game-frameworks" class="category depth-2">
+  <h4 class="section-title"><span class="marker">####</span> Frameworks</h4>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/EinScott/Pile" target="_blank" rel="noopener noreferrer">Pile</a></h4>
+      <p class="card-description">A simple extendable game framework.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/EinScott/Pile" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/EinScott/Pile</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">framework</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/Starpelly/raylib-beef" target="_blank" rel="noopener noreferrer">Raylib-beef</a></h4>
+      <p class="card-description">Autogenerated raylib bindings for the newest version of raylib.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/Starpelly/raylib-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/Starpelly/raylib-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">raylib</li><li class="tag">bindings</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/M0n7y5/raylib-beef" target="_blank" rel="noopener noreferrer">Raylib-beef 3.7</a></h4>
+      <p class="card-description">Handmade bindings for the version 3.7 of raylib.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/M0n7y5/raylib-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/M0n7y5/raylib-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">raylib</li><li class="tag">bindings</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="game-libraries" class="category depth-2">
+  <h4 class="section-title"><span class="marker">####</span> Libraries</h4>
+  <div class="cards">
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/jazzbre/bgfx-beef" target="_blank" rel="noopener noreferrer">BGFX-beef</a></h4>
+      <p class="card-description">A Cross-platform, graphics API agnostic, &quot;Bring Your Own Engine/Framework&quot; style rendering library.</p>
+      <ul class="notes">
+        <li><a href="https://github.com/bkaradzic/bgfx/tree/master/bindings/bf" target="_blank" rel="noopener noreferrer">Also linked in the official BGFX repository.</a></li>
+      </ul>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jazzbre/bgfx-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jazzbre/bgfx-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">graphics</li><li class="tag">rendering</li></ul>
+      </div>
+    </article>
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/jazzbre/box2d-beef" target="_blank" rel="noopener noreferrer">Box2D-beef</a></h4>
+      <p class="card-description">2D physics engine for games.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jazzbre/box2d-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jazzbre/box2d-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">physics</li><li class="tag">2d</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/jayrulez/Bulkan" target="_blank" rel="noopener noreferrer">Bulkan</a></h4>
+      <p class="card-description">Low level Vulkan bindings.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jayrulez/Bulkan" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jayrulez/Bulkan</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">vulkan</li><li class="tag">graphics</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/jazzbre/Chipmunk2D-beef" target="_blank" rel="noopener noreferrer">Chipmunk2D-beef</a></h4>
+      <p class="card-description">A simple, lightweight, fast and portable 2D rigid body physics library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jazzbre/Chipmunk2D-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jazzbre/Chipmunk2D-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">physics</li><li class="tag">2d</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/aharabada/directx-beef" target="_blank" rel="noopener noreferrer">directx-beef</a></h4>
+      <p class="card-description">Beef wrapper library for Direct3D 11.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/aharabada/directx-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/aharabada/directx-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">directx</li><li class="tag">graphics</li></ul>
+      </div>
+    </article>
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/jayrulez/Dxc-Beef" target="_blank" rel="noopener noreferrer">Dxc-Beef</a></h4>
+      <p class="card-description">DirectXShaderCompiler bindings.</p>
+      <ul class="notes">
+        <li><a href="https://github.com/microsoft/DirectXShaderCompiler" target="_blank" rel="noopener noreferrer">DirectXShaderCompiler</a></li>
+      </ul>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jayrulez/Dxc-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jayrulez/Dxc-Beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">directx</li><li class="tag">shaders</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/MineGame159/glfw-beef" target="_blank" rel="noopener noreferrer">Glfw-beef</a></h4>
+      <p class="card-description">Beef wrapper library for GLFW.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/MineGame159/glfw-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/MineGame159/glfw-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">glfw</li><li class="tag">windowing</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/MineGame159/opengl-beef" target="_blank" rel="noopener noreferrer">Opengl-beef</a></h4>
+      <p class="card-description">OpenGL loader for Beef.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/MineGame159/opengl-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/MineGame159/opengl-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">opengl</li><li class="tag">graphics</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/jazzbre/sdl2-beef" target="_blank" rel="noopener noreferrer">SDL2-beef</a></h4>
+      <p class="card-description">SDL2 Wrapper, synced with SDL2 shipped with Beef.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jazzbre/sdl2-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jazzbre/sdl2-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">sdl</li><li class="tag">windowing</li></ul>
+      </div>
+    </article>
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/Booklordofthedings/SDL3-Beef" target="_blank" rel="noopener noreferrer">SDL3-Beef</a></h4>
+      <p class="card-description">A binding for SDL3 to Beef, trying to be as close to the original interface as possible.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/Booklordofthedings/SDL3-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/Booklordofthedings/SDL3-Beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">sdl</li><li class="tag">bindings</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/MineGame159/shaderc-beef" target="_blank" rel="noopener noreferrer">Shaderc-beef</a></h4>
+      <p class="card-description">A Beef wrapper library for Shaderc.</p>
+      <ul class="notes">
+        <li><a href="https://github.com/google/shaderc" target="_blank" rel="noopener noreferrer">Shaderc</a></li>
+      </ul>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/MineGame159/shaderc-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/MineGame159/shaderc-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">shaders</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/kochol/sokol-beef" target="_blank" rel="noopener noreferrer">sokol-beef</a></h4>
+      <p class="card-description">Auto generated library for sokol headers.</p>
+      <ul class="notes">
+        <li><a href="https://github.com/floooh/sokol" target="_blank" rel="noopener noreferrer">sokol</a></li>
+      </ul>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/kochol/sokol-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/kochol/sokol-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">graphics</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/jarikomppa/soloud" target="_blank" rel="noopener noreferrer">SoLoud-beef</a></h4>
+      <p class="card-description">easy to use, free, portable c/c++ audio engine for games.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jarikomppa/soloud" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jarikomppa/soloud</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">audio</li></ul>
+      </div>
+    </article>
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/jayrulez/SPIRV-Cross-Beef" target="_blank" rel="noopener noreferrer">SPIRV-Cross-Beef</a></h4>
+      <p class="card-description">SPIRV-Cross bindings.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jayrulez/SPIRV-Cross-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jayrulez/SPIRV-Cross-Beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">shaders</li><li class="tag">vulkan</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://git.unicon-gmbh.de/Rune/Vulkan-Beef" target="_blank" rel="noopener noreferrer">Vulkan-Beef</a></h4>
+      <p class="card-description">Vulkan Bindings for Beef similar to Vulkan-Hpp.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://git.unicon-gmbh.de/Rune/Vulkan-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">git.unicon-gmbh.de/Rune/Vulkan-Beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">vulkan</li><li class="tag">graphics</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/MineGame159/wgpu-beef" target="_blank" rel="noopener noreferrer">WGPU-beef</a></h4>
+      <p class="card-description">Beef wrapper library for WGPU (more specifically wgpu-native).</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/MineGame159/wgpu-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/MineGame159/wgpu-beef</span></a>
+        <ul class="tags"><li class="tag">game-development</li><li class="tag">graphics</li><li class="tag">wgpu</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+</section>
+
+<section id="font" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Font</h3>
+  <div class="cards">
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/disarray2077/BeefFNT" target="_blank" rel="noopener noreferrer">BeefFNT</a></h4>
+      <p class="card-description">A Beef library for reading and writing AngelCode bitmap fonts in binary, XML, and text.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/disarray2077/BeefFNT" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/disarray2077/BeefFNT</span></a>
+        <ul class="tags"><li class="tag">font</li><li class="tag">bitmap</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="gui" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> GUI</h3>
+  <p class="category-description">Libraries and frameworks for general GUI programming</p>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/guofeiyu2022/libui-beef" target="_blank" rel="noopener noreferrer">LibUI-beef</a></h4>
+      <p class="card-description">A libui-ng binding for Beeflang.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/guofeiyu2022/libui-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/guofeiyu2022/libui-beef</span></a>
+        <ul class="tags"><li class="tag">gui</li><li class="tag">bindings</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/SteveSmithSoftware/Mince" target="_blank" rel="noopener noreferrer">Mince</a></h4>
+      <p class="card-description">A GUI Toolkit for use with the Beef Programming Language.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/SteveSmithSoftware/Mince" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/SteveSmithSoftware/Mince</span></a>
+        <ul class="tags"><li class="tag">gui</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/jazzbre/nativefiledialog-beef" target="_blank" rel="noopener noreferrer">NativeFileDialog-beef</a></h4>
+      <p class="card-description">Portable library to invoke native file dialogs.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jazzbre/nativefiledialog-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jazzbre/nativefiledialog-beef</span></a>
+        <ul class="tags"><li class="tag">gui</li><li class="tag">dialogs</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/kumikumi/Ultralight-beef" target="_blank" rel="noopener noreferrer">Ultralight-beef</a></h4>
+      <p class="card-description">Write UI code for your game/application with web technologies (HTML/CSS/JS) using a lightweight web renderer.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/kumikumi/Ultralight-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/kumikumi/Ultralight-beef</span></a>
+        <ul class="tags"><li class="tag">gui</li><li class="tag">web</li><li class="tag">html</li></ul>
+      </div>
+    </article>
+  </div>
+
+<section id="imgui" class="category depth-2">
+  <h4 class="section-title"><span class="marker">####</span> ImGui</h4>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/RogueMacro/imgui-beef" target="_blank" rel="noopener noreferrer">ImGui-beef</a></h4>
+      <p class="card-description">Beef wrapper library for ImGui.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/RogueMacro/imgui-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/RogueMacro/imgui-beef</span></a>
+        <ul class="tags"><li class="tag">gui</li><li class="tag">imgui</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/jazzbre/imguibgfx-beef" target="_blank" rel="noopener noreferrer">ImGuibgfx-beef</a></h4>
+      <p class="card-description">ImGui wrapper using SDL2 and BGFX.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jazzbre/imguibgfx-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jazzbre/imguibgfx-beef</span></a>
+        <ul class="tags"><li class="tag">gui</li><li class="tag">imgui</li><li class="tag">bgfx</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/MineGame159/imgui-vulkan-beef" target="_blank" rel="noopener noreferrer">ImGui-Vulkan-beef</a></h4>
+      <p class="card-description">Vulkan backend for Dear ImGui in Beef.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/MineGame159/imgui-vulkan-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/MineGame159/imgui-vulkan-beef</span></a>
+        <ul class="tags"><li class="tag">gui</li><li class="tag">imgui</li><li class="tag">vulkan</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+</section>
+
+<section id="ioc" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> IoC</h3>
+  <p class="category-description">Inversion of Control libraries and frameworks</p>
+  <div class="cards">
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/RogueMacro/Steak.DependencyInjection" target="_blank" rel="noopener noreferrer">Steak.DependencyInjection</a></h4>
+      <p class="card-description">Simple dependency injection library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/RogueMacro/Steak.DependencyInjection" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/RogueMacro/Steak.DependencyInjection</span></a>
+        <ul class="tags"><li class="tag">dependency-injection</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="image" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Image</h3>
+  <p class="category-description">Libraries for image loading and processing</p>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/StbBeef/StbImageBeef" target="_blank" rel="noopener noreferrer">StbImageBeef</a></h4>
+      <p class="card-description">Beef port of the stb_image.h C header library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/StbBeef/StbImageBeef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/StbBeef/StbImageBeef</span></a>
+        <ul class="tags"><li class="tag">image</li><li class="tag">graphics</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="interoperability" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Interoperability</h3>
+  <p class="category-description">Libraries related to interoperability</p>
+  <div class="cards">
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/zerkawei/Collagen" target="_blank" rel="noopener noreferrer">Collagen</a></h4>
+      <p class="card-description">Generates a C API to export Beef objects and to allow foreign implementations of Beef interfaces.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/zerkawei/Collagen" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/zerkawei/Collagen</span></a>
+        <ul class="tags"><li class="tag">interop</li><li class="tag">ffi</li><li class="tag">codegen</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="linq" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Linq</h3>
+  <p class="category-description">Linq related libraries.</p>
+  <div class="cards">
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/disarray2077/Beef.Linq" target="_blank" rel="noopener noreferrer">Beef.Linq</a></h4>
+      <p class="card-description">An awesome Beef library to mimic .NETs linq, but better and faster.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/disarray2077/Beef.Linq" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/disarray2077/Beef.Linq</span></a>
+        <ul class="tags"><li class="tag">linq</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="logging" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Logging</h3>
+  <p class="category-description">Logging libraries and frameworks.</p>
+  <div class="cards">
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/RogueMacro/Steak.Logging" target="_blank" rel="noopener noreferrer">Steak.Logging</a></h4>
+      <p class="card-description">An awesome logging library for Beef.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/RogueMacro/Steak.Logging" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/RogueMacro/Steak.Logging</span></a>
+        <ul class="tags"><li class="tag">logging</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="multimedia" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Multimedia</h3>
+  <p class="category-description">Multimedia related libraries.</p>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/disarray2077/FFmpeg-Beef" target="_blank" rel="noopener noreferrer">FFmpeg-Beef</a></h4>
+      <p class="card-description">FFmpeg bindings for BeefLang.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/disarray2077/FFmpeg-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/disarray2077/FFmpeg-Beef</span></a>
+        <ul class="tags"><li class="tag">multimedia</li><li class="tag">video</li><li class="tag">audio</li><li class="tag">ffmpeg</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="networking" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Networking</h3>
+  <p class="category-description">Networking related libraries</p>
+  <div class="cards">
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/thibmo/Beef-Net" target="_blank" rel="noopener noreferrer">Beef-Net</a></h4>
+      <p class="card-description">BeefLang networking library, based on lNet.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/thibmo/Beef-Net" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/thibmo/Beef-Net</span></a>
+        <ul class="tags"><li class="tag">networking</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="scripting-engines" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Scripting Engines</h3>
+  <p class="category-description">Awesome scripting libraries.</p>
+  <div class="cards">
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/disarray2077/KeraLua-Beef" target="_blank" rel="noopener noreferrer">KeraLua-Beef</a></h4>
+      <p class="card-description">Native bindings of Lua 5.4 for BeefLang.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/disarray2077/KeraLua-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/disarray2077/KeraLua-Beef</span></a>
+        <ul class="tags"><li class="tag">scripting</li><li class="tag">lua</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/thibmo/lua-beef" target="_blank" rel="noopener noreferrer">Lua-beef</a></h4>
+      <p class="card-description">BeefLang wrapper library for Lua.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/thibmo/lua-beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/thibmo/lua-beef</span></a>
+        <ul class="tags"><li class="tag">scripting</li><li class="tag">lua</li></ul>
+      </div>
+    </article>
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/disarray2077/LuaTinker-Beef" target="_blank" rel="noopener noreferrer">LuaTinker-Beef</a></h4>
+      <p class="card-description">A library to bind BeefLang and Lua together.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/disarray2077/LuaTinker-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/disarray2077/LuaTinker-Beef</span></a>
+        <ul class="tags"><li class="tag">scripting</li><li class="tag">lua</li><li class="tag">bindings</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="serialization" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Serialization</h3>
+  <p class="category-description">Libraries for serializing and parsing text</p>
+  <div class="cards">
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/xposure/Atma.Json" target="_blank" rel="noopener noreferrer">Atma.Json</a></h4>
+      <p class="card-description">Json serialization framework.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/xposure/Atma.Json" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/xposure/Atma.Json</span></a>
+        <ul class="tags"><li class="tag">serialization</li><li class="tag">json</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/killamaaki/beef-toml" target="_blank" rel="noopener noreferrer">Beef-toml</a></h4>
+      <p class="card-description">Toml parser/serializer library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/killamaaki/beef-toml" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/killamaaki/beef-toml</span></a>
+        <ul class="tags"><li class="tag">serialization</li><li class="tag">toml</li><li class="tag">parsing</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/EinScott/bon" target="_blank" rel="noopener noreferrer">bon</a></h4>
+      <p class="card-description">A reflection based structure serialization library designed for Beef.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/EinScott/bon" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/EinScott/bon</span></a>
+        <ul class="tags"><li class="tag">serialization</li><li class="tag">reflection</li></ul>
+      </div>
+    </article>
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/EinScott/json" target="_blank" rel="noopener noreferrer">json</a></h4>
+      <p class="card-description">A light arbitrary JSON tree read and write library.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/EinScott/json" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/EinScott/json</span></a>
+        <ul class="tags"><li class="tag">serialization</li><li class="tag">json</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/thibmo/Xml-Beef" target="_blank" rel="noopener noreferrer">Xml-Beef</a></h4>
+      <p class="card-description">Single-file XML parser in Beef with doctype support.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/thibmo/Xml-Beef" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/thibmo/Xml-Beef</span></a>
+        <ul class="tags"><li class="tag">serialization</li><li class="tag">xml</li><li class="tag">parsing</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/tomwjerry/beef_sead" target="_blank" rel="noopener noreferrer">beef_sead</a></h4>
+      <p class="card-description">Base64 encoder and decoder.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/tomwjerry/beef_sead" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/tomwjerry/beef_sead</span></a>
+        <ul class="tags"><li class="tag">serialization</li><li class="tag">base64</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="themes" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Themes</h3>
+  <p class="category-description">IDE themes.</p>
+  <div class="cards">
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/Jmacklin308/BeefIDE-Base16TomorrowDark" target="_blank" rel="noopener noreferrer">Base16TomorrowDark</a></h4>
+      <p class="card-description">Base 16 Tomorrow Dark Theme.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/Jmacklin308/BeefIDE-Base16TomorrowDark" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/Jmacklin308/BeefIDE-Base16TomorrowDark</span></a>
+        <ul class="tags"><li class="tag">theme</li><li class="tag">ide</li></ul>
+      </div>
+    </article>
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/fhornung/beef-dracula" target="_blank" rel="noopener noreferrer">Dracula</a></h4>
+      <p class="card-description">Dracula theme.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/fhornung/beef-dracula" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/fhornung/beef-dracula</span></a>
+        <ul class="tags"><li class="tag">theme</li><li class="tag">ide</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/thibmo/BeefIDE-OneDarkPro" target="_blank" rel="noopener noreferrer">OneDarkPro</a></h4>
+      <p class="card-description">Atom&#x27;s iconic One Dark theme.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/thibmo/BeefIDE-OneDarkPro" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/thibmo/BeefIDE-OneDarkPro</span></a>
+        <ul class="tags"><li class="tag">theme</li><li class="tag">ide</li></ul>
+      </div>
+    </article>
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://github.com/M0n7y5/BeefIDE-SimplyDark" target="_blank" rel="noopener noreferrer">SimplyDark</a></h4>
+      <p class="card-description">Simple dark theme.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/M0n7y5/BeefIDE-SimplyDark" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/M0n7y5/BeefIDE-SimplyDark</span></a>
+        <ul class="tags"><li class="tag">theme</li><li class="tag">ide</li></ul>
+      </div>
+    </article>
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/MineBill/SimplyLight" target="_blank" rel="noopener noreferrer">SimplyLight</a></h4>
+      <p class="card-description">Simple Visual Studio -esque light theme.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/MineBill/SimplyLight" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/MineBill/SimplyLight</span></a>
+        <ul class="tags"><li class="tag">theme</li><li class="tag">ide</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="text-processing" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Text Processing</h3>
+  <p class="category-description">Libraries for parsing and manipulating plain texts.</p>
+  <div class="cards">
+    <article class="card accent-2">
+      <h4 class="card-title"><a href="https://github.com/zerkawei/Oregano" target="_blank" rel="noopener noreferrer">Oregano</a></h4>
+      <p class="card-description">Regex implementation supporting captures, lookarounds and backreferences.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/zerkawei/Oregano" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/zerkawei/Oregano</span></a>
+        <ul class="tags"><li class="tag">text</li><li class="tag">regex</li></ul>
+      </div>
+    </article>
+    <article class="card accent-3">
+      <h4 class="card-title"><a href="https://github.com/disarray2077/TinyRegex" target="_blank" rel="noopener noreferrer">TinyRegex</a></h4>
+      <p class="card-description">Tiny implementation of a subset of Regex.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/disarray2077/TinyRegex" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/disarray2077/TinyRegex</span></a>
+        <ul class="tags"><li class="tag">text</li><li class="tag">regex</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+</section>
+
+<section id="projects-and-articles" class="category depth-0">
+  <h2 class="section-title"><span class="marker">##</span> Projects and Articles</h2>
+  <p class="category-description">To show or explain what beef is capable of.</p>
+
+<section id="dynamic-linking" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Dynamic Linking</h3>
+  <div class="cards">
+    <article class="card accent-0">
+      <h4 class="card-title"><a href="https://m0n7y5.github.io/beef-dll-creation-and-research-2/" target="_blank" rel="noopener noreferrer">Beef DLL Creation &amp; Research</a></h4>
+      <p class="card-description">Showcase of a fully functional Beef DLL.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://m0n7y5.github.io/beef-dll-creation-and-research-2/" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">m0n7y5.github.io/beef-dll-creation-and-research-2</span></a>
+        <ul class="tags"><li class="tag">dll</li><li class="tag">interop</li><li class="tag">article</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="projects-networking" class="category depth-1">
+  <h3 class="section-title"><span class="marker">###</span> Networking</h3>
+  <div class="cards">
+    <article class="card accent-1">
+      <h4 class="card-title"><a href="https://github.com/jairopaiva/SampleListener" target="_blank" rel="noopener noreferrer">SampleListener</a></h4>
+      <p class="card-description">Example of an echo server showing the use of System.Net.Socket to listen for clients connections.</p>
+      <div class="card-divider" aria-hidden="true"></div>
+      <div class="card-footer">
+        <a class="card-repo" href="https://github.com/jairopaiva/SampleListener" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span class="card-repo-label">github.com/jairopaiva/SampleListener</span></a>
+        <ul class="tags"><li class="tag">networking</li><li class="tag">example</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+</section>
+      </main>
+    </div>
+    <footer class="site-footer">
+      Generated from <code>data.json</code> by <code>generate_site.py</code>.
+    </footer>
+  </div>
+<script>
+  (function () {
+    var navToggle = document.getElementById('nav-toggle');
+    var sidebar = document.getElementById('sidebar');
+
+    // Mobile drawer toggle.
+    navToggle.addEventListener('click', function () {
+      var open = sidebar.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    // Collapsible TOC headings.
+    document.querySelectorAll('.toc-toggle').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        var sublist = document.getElementById(btn.getAttribute('aria-controls'));
+        if (sublist) sublist.classList.toggle('is-collapsed', expanded);
+      });
+    });
+
+    // Close the mobile drawer when a TOC link is clicked.
+    document.querySelectorAll('.toc-title').forEach(function (link) {
+      link.addEventListener('click', function () {
+        sidebar.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Scroll-spy: highlight the TOC link of the section in view.
+    var links = document.querySelectorAll('.toc-title');
+    var map = {};
+    links.forEach(function (link) {
+      var id = link.getAttribute('href').slice(1);
+      map[id] = link;
+    });
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var link = map[entry.target.id];
+        if (!link) return;
+        if (entry.isIntersecting) {
+          links.forEach(function (l) { l.classList.remove('is-active'); });
+          link.classList.add('is-active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+    document.querySelectorAll('main section[id]').forEach(function (section) {
+      observer.observe(section);
+    });
+  })();
+</script>
+</body>
+</html>

@@ -12,5 +12,3 @@ devenv.local.yaml
 # Python
 __pycache__/
 *.pyc
-
-site/index.html
