@@ -79,6 +79,12 @@
       "tags": ["audio"]
     },
     {
+      "id": "bindings",
+      "title": "Bindings",
+      "parent": "frameworks-and-libraries",
+      "tags": ["audio"]
+    },
+    {
       "id": "caching",
       "title": "Caching",
       "parent": "frameworks-and-libraries",
@@ -753,6 +759,13 @@
       "description": "Example of an echo server showing the use of System.Net.Socket to listen for clients connections.",
       "category": "projects-networking",
       "tags": ["networking", "example"]
+    },
+    {
+      "name": "Win32-Beef",
+      "url": "https://github.com/SedulousWorks/Win32-Beef",
+      "description": "Beef bindings for Win32",
+      "category": "bindings",
+      "tags": ["bindings", "windows"]
     }
   ]
 }
