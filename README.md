@@ -17,6 +17,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
         - [Cryptography and Hashing](#cryptography-and-hashing)
         - [Noise](#noise)
     - [Audio](#audio)
+    - [Bindings](#bindings)
     - [Caching](#caching)
     - [Command Line Interface Development](#command-line-interface-development)
     - [Coroutines](#coroutines)
@@ -80,6 +81,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Audio
 - [Beef-FMOD](https://github.com/LauraRozier/Beef-FMOD) - Beef bindings for the FMOD audio processing library.
 - [BeefBass](https://github.com/disarray2077/BeefBass) - Beef Wrapper for the 'Bass' Audio Library.
+
+## Bindings
+- [Win32-Beef](https://github.com/SedulousWorks/Win32-Beef) - Beef bindings for Win32
 
 ## Caching
 - [System.Caching](https://github.com/thibmo/System.Caching) - A BeefLang implementation of .net System.Runtime.Caching, useful to prevent double-triggering, response caching, data caching, etc.
