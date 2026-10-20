@@ -42,6 +42,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [Projects and Articles](#projects-and-articles)
     - [Dynamic Linking](#dynamic-linking)
     - [Networking](#networking-1)
+    - [Games](#games)
 - [Contributing](#contributing)
 
 # Official Resources
@@ -223,6 +224,10 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Networking
 - [SampleListener](https://github.com/jairopaiva/SampleListener) - Example of an echo server showing the use of System.Net.Socket to listen for clients connections.
+
+## Games
+- [Hyperspin](https://store.steampowered.com/app/4746250/Hyperspin/) - Hyperspin is an experimental rhythm game where you control a circle that spins on a circle, and you tap circles. There are lots of circles.
+- [Penny's Big Breakaway](https://www.nintendo.com/us/store/products/pennys-big-breakaway-switch/) - A kinetic 3D-platformer bursting with innovative gameplay! For the Nintendo Switch
 
 # Contributing
 
