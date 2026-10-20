@@ -243,6 +243,12 @@
       "title": "Networking",
       "parent": "projects-and-articles",
       "tags": ["networking", "example"]
+    },
+    {
+      "id": "projects-games",
+      "title": "Games",
+      "parent": "projects-and-articles",
+      "tags": ["games"]
     }
   ],
   "entries": [
@@ -766,6 +772,20 @@
       "description": "Beef bindings for Win32",
       "category": "bindings",
       "tags": ["bindings", "windows"]
+    },
+    {
+      "name": "Hyperspin",
+      "url": "https://store.steampowered.com/app/4746250/Hyperspin/",
+      "description": "Hyperspin is an experimental rhythm game where you control a circle that spins on a circle, and you tap circles. There are lots of circles.",
+      "category": "projects-games",
+      "tags": ["games"]
+    },
+    {
+      "name": "Penny's Big Breakaway",
+      "url": "https://www.nintendo.com/us/store/products/pennys-big-breakaway-switch/",
+      "description": "A kinetic 3D-platformer bursting with innovative gameplay! For the Nintendo Switch",
+      "category": "projects-games",
+      "tags": ["games"]
     }
   ]
 }
