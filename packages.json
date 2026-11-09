@@ -403,7 +403,7 @@
     "description": "A Beef binding for SDL3",
     "url": "https://github.com/Booklordofthedings/SDL3-Beef",
     "created_at": "2024-10-22T09:12:19Z",
-    "updated_at": "2026-10-07T00:31:55Z",
+    "updated_at": "2026-11-06T11:00:02Z",
     "beef_package_manager_compatible": true,
     "tags": [
       {
@@ -603,17 +603,6 @@
     "tags": []
   },
   {
-    "id": 373272658,
-    "name": "System.Caching",
-    "owner": "LauraRozier",
-    "description": "System.Runtime.Caching for BeefLang",
-    "url": "https://github.com/LauraRozier/System.Caching",
-    "created_at": "2021-06-02T18:53:24Z",
-    "updated_at": "2026-07-09T05:32:33Z",
-    "beef_package_manager_compatible": true,
-    "tags": []
-  },
-  {
     "id": 459278148,
     "name": "imgui-vulkan-beef",
     "owner": "MineGame159",
@@ -621,6 +610,17 @@
     "url": "https://github.com/MineGame159/imgui-vulkan-beef",
     "created_at": "2022-02-14T18:25:59Z",
     "updated_at": "2025-01-07T02:00:24Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
+  },
+  {
+    "id": 373272658,
+    "name": "System.Caching",
+    "owner": "LauraRozier",
+    "description": "System.Runtime.Caching for BeefLang",
+    "url": "https://github.com/LauraRozier/System.Caching",
+    "created_at": "2021-06-02T18:53:24Z",
+    "updated_at": "2026-07-09T05:32:33Z",
     "beef_package_manager_compatible": true,
     "tags": []
   },
@@ -667,26 +667,6 @@
     "tags": []
   },
   {
-    "id": 261496299,
-    "name": "beef-utils",
-    "owner": "LauraRozier",
-    "description": null,
-    "url": "https://github.com/LauraRozier/beef-utils",
-    "created_at": "2020-05-05T14:34:22Z",
-    "updated_at": "2021-12-21T16:44:41Z",
-    "tags": []
-  },
-  {
-    "id": 688714841,
-    "name": "AI2001_Category-Source_Code-SC-Beef",
-    "owner": "seanpm2001",
-    "description": "\ud83e\udde0\ufe0f\ud83d\udda5\ufe0f2\ufe0f\u20e3\ufe0f0\ufe0f\u20e3\ufe0f0\ufe0f\u20e3\ufe0f1\ufe0f\u20e3\ufe0f\ud83d\udcbe\ufe0f\ud83d\udcdc\ufe0f The sourceCode:Beef category for AI2001, containing Beef programming language datasets",
-    "url": "https://github.com/seanpm2001/AI2001_Category-Source_Code-SC-Beef",
-    "created_at": "2023-09-08T00:25:32Z",
-    "updated_at": "2023-09-08T22:57:30Z",
-    "tags": []
-  },
-  {
     "id": 561232419,
     "name": "Bench",
     "owner": "farism",
@@ -698,14 +678,13 @@
     "tags": []
   },
   {
-    "id": 260570341,
-    "name": "BeefBrainfuck",
-    "owner": "Entrivax",
-    "description": "Brainfuck interpreter in Beef language",
-    "url": "https://github.com/Entrivax/BeefBrainfuck",
-    "created_at": "2020-05-01T22:27:02Z",
-    "updated_at": "2021-12-21T16:45:11Z",
-    "beef_package_manager_compatible": true,
+    "id": 688714841,
+    "name": "AI2001_Category-Source_Code-SC-Beef",
+    "owner": "seanpm2001",
+    "description": "\ud83e\udde0\ufe0f\ud83d\udda5\ufe0f2\ufe0f\u20e3\ufe0f0\ufe0f\u20e3\ufe0f0\ufe0f\u20e3\ufe0f1\ufe0f\u20e3\ufe0f\ud83d\udcbe\ufe0f\ud83d\udcdc\ufe0f The sourceCode:Beef category for AI2001, containing Beef programming language datasets",
+    "url": "https://github.com/seanpm2001/AI2001_Category-Source_Code-SC-Beef",
+    "created_at": "2023-09-08T00:25:32Z",
+    "updated_at": "2023-09-08T22:57:30Z",
     "tags": []
   },
   {
@@ -739,6 +718,27 @@
         "node_id": "REF_kwDOGcwjpa5yZWZzL3RhZ3MvdjEuMA"
       }
     ]
+  },
+  {
+    "id": 261496299,
+    "name": "beef-utils",
+    "owner": "LauraRozier",
+    "description": null,
+    "url": "https://github.com/LauraRozier/beef-utils",
+    "created_at": "2020-05-05T14:34:22Z",
+    "updated_at": "2021-12-21T16:44:41Z",
+    "tags": []
+  },
+  {
+    "id": 260570341,
+    "name": "BeefBrainfuck",
+    "owner": "Entrivax",
+    "description": "Brainfuck interpreter in Beef language",
+    "url": "https://github.com/Entrivax/BeefBrainfuck",
+    "created_at": "2020-05-01T22:27:02Z",
+    "updated_at": "2021-12-21T16:45:11Z",
+    "beef_package_manager_compatible": true,
+    "tags": []
   },
   {
     "id": 290265637,
@@ -827,17 +827,6 @@
     "tags": []
   },
   {
-    "id": 1238308760,
-    "name": "beefgame",
-    "owner": "5Stygian",
-    "description": null,
-    "url": "https://github.com/5Stygian/beefgame",
-    "created_at": "2026-05-14T02:22:24Z",
-    "updated_at": "2026-06-08T06:17:02Z",
-    "beef_package_manager_compatible": true,
-    "tags": []
-  },
-  {
     "id": 262593007,
     "name": "BeefGrunio",
     "owner": "Athlon007",
@@ -867,6 +856,17 @@
     "url": "https://github.com/seanpm2001/Bliss_Browser_Beef",
     "created_at": "2024-12-17T07:09:59Z",
     "updated_at": "2024-12-20T19:50:20Z",
+    "tags": []
+  },
+  {
+    "id": 1238308760,
+    "name": "beefgame",
+    "owner": "5Stygian",
+    "description": null,
+    "url": "https://github.com/5Stygian/beefgame",
+    "created_at": "2026-05-14T02:22:24Z",
+    "updated_at": "2026-06-08T06:17:02Z",
+    "beef_package_manager_compatible": true,
     "tags": []
   },
   {
@@ -908,7 +908,7 @@
     "description": "Beef Programming Language",
     "url": "https://github.com/beefytech/Beef",
     "created_at": "2019-08-20T15:43:32Z",
-    "updated_at": "2026-11-02T02:22:50Z",
+    "updated_at": "2026-11-06T20:09:19Z",
     "tags": [
       {
         "name": "0.43.5",
