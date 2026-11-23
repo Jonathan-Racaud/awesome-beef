@@ -786,6 +786,13 @@
       "description": "A kinetic 3D-platformer bursting with innovative gameplay! For the Nintendo Switch",
       "category": "projects-games",
       "tags": ["games"]
+    },
+    {
+      "name": "Super Beefit",
+      "url": "https://store.steampowered.com/app/4003270/Super_Beefit/",
+      "description": "Help Beefit brave perilous lands and cavernous depths to rescue his bovine love in this tight, precision platformer with responsive controls, and skill-based gameplay.",
+      "category": "projects-games",
+      "tags": ["games"]
     }
   ]
 }
