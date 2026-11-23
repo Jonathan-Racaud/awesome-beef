@@ -228,6 +228,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Games
 - [Hyperspin](https://store.steampowered.com/app/4746250/Hyperspin/) - Hyperspin is an experimental rhythm game where you control a circle that spins on a circle, and you tap circles. There are lots of circles.
 - [Penny's Big Breakaway](https://www.nintendo.com/us/store/products/pennys-big-breakaway-switch/) - A kinetic 3D-platformer bursting with innovative gameplay! For the Nintendo Switch
+- [Super Beefit](https://store.steampowered.com/app/4003270/Super_Beefit/) - Help Beefit brave perilous lands and cavernous depths to rescue his bovine love in this tight, precision platformer with responsive controls, and skill-based gameplay.
 
 # Contributing
 
