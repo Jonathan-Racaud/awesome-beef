@@ -711,6 +711,13 @@
       "tags": ["theme", "ide"]
     },
     {
+      "name": "Cowppuccin",
+      "url": "https://github.com/RogueMacro/cowppuccin",
+      "description": "Catppuccin based theme",
+      "category": "themes",
+      "tags": ["themes", "ide"]
+    },
+    {
       "name": "Dracula",
       "url": "https://github.com/fhornung/beef-dracula",
       "description": "Dracula theme.",
