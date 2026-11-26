@@ -205,6 +205,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 *IDE themes.*
 
 - [Base16TomorrowDark](https://github.com/Jmacklin308/BeefIDE-Base16TomorrowDark) - Base 16 Tomorrow Dark Theme.
+- [Cowppuccin](https://github.com/RogueMacro/cowppuccin) - Catppuccin based theme
 - [Dracula](https://github.com/fhornung/beef-dracula) - Dracula theme.
 - [GithubDark](https://github.com/RogueMacro/beef-theme-github-dark) - Adapted Github Dark theme
 - [OneDarkPro](https://github.com/thibmo/BeefIDE-OneDarkPro) - Atom's iconic One Dark theme.
