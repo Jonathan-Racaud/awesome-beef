@@ -718,6 +718,13 @@
       "tags": ["theme", "ide"]
     },
     {
+      "name": "GithubDark",
+      "url": "https://github.com/RogueMacro/beef-theme-github-dark",
+      "description": "Adapted Github Dark theme",
+      "category": "themes",
+      "tags": ["theme", "ide"]
+    },
+    {
       "name": "OneDarkPro",
       "url": "https://github.com/thibmo/BeefIDE-OneDarkPro",
       "description": "Atom's iconic One Dark theme.",
